@@ -1,0 +1,77 @@
+EdgeSenseNano
+├── src/                    ← основният код
+│   ├── __init__.py
+│   ├── edgesense_core.py
+│   └── ...
+├── data/                   ← датасети
+├── models/                 ← запазени модели
+├── outputs/                ← резултати, ONNX, графики
+├── scripts/                ← помощни скриптове
+├── notebooks/              ← Jupyter notebooks за експерименти
+├── firmware/               ← C код за микроконтролери
+│   ├── include/
+│   └── src/
+├── docs/                   ← документация
+├── tests/                  ← тестове
+├── README.md
+├── requirements.txt
+├── setup.py
+└── .gitignore
+
+
+Кои части от твоите кодове влизат директно
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Код, който ми дадеКакво взимаме от негоЗащо е полезно за аномалия на IoT сензориS.py (онлайн с Kalman)Онлайн loop + trust update (заменяме Kalman с EMA)Основата за стрийминг / онлайн адаптацияNano 2.pyONNX export + energy monitor + demo структураИзход за ABX00173 + реална оценка на консумацияmini_demo_GW_vs_RAdamИдеята за сравнение на оптимизаториЩе тестваме дали GravOpt помага при малки данниazuro_pipeline.pyPySR частта (symbolic regression)За периодично генериране на обясними уравненияsetup.pyСтруктурата (entry_points, install_requires)За да стане pip installable пакет по-късно
+План за първия работещ локален код (следващите 1–2 отговора)
+
+Подготовка на данни
+Взимаме Appliances_energy (UCI)
+Генерираме бинарен лейбъл за аномалия (rolling 2h outlier)
+Feature engineering (rolling mean/std, hour, derivative)
+
+Модифициран пайплайн (на база S.py + Nano 2.py)
+Малък NN + SGDRegressor + DecisionTree
+EMA trust вместо Kalman (по-лек за ABX00173)
+Периодично PySR за символично уравнение
+ONNX + int8 квантизация
+Оценка: F1-score + FLOPs + RAM estimate
+
+Изход
+.onnx модел
+.c файл за Cortex-M33F (inference само)
+Символично уравнение (txt)
+Таблица с метрики (точност, консумация, памет)

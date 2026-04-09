@@ -1,0 +1,819 @@
+Acceleration | 0.057   | 0.049    | 1.0 W     | 9.5 J     | ✅ OK
+Acceleration | 0.097   | 0.083    | 1.8 W     | 9.7 J     | ✅ OK
+Acceleration | 0.138   | 0.118    | 2.5 W     | 10.0 J     | ✅ OK
+Acceleration | 0.090   | 0.076    | 1.6 W     | 10.1 J     | ✅ OK
+Acceleration | 0.051   | 0.044    | 0.9 W     | 10.2 J     | ✅ OK
+Acceleration | 0.025   | 0.021    | 0.5 W     | 10.3 J     | ✅ OK
+Acceleration | 0.012   | 0.010    | 0.2 W     | 10.3 J     | ✅ OK
+Acceleration | 0.013   | 0.011    | 0.2 W     | 10.3 J     | ✅ OK
+Acceleration | 0.028   | 0.023    | 0.5 W     | 10.4 J     | ✅ OK
+Acceleration | 0.055   | 0.047    | 1.0 W     | 10.5 J     | ✅ OK
+Acceleration | 0.095   | 0.081    | 1.7 W     | 10.6 J     | ✅ OK
+Acceleration | 0.145   | 0.123    | 2.6 W     | 10.9 J     | ✅ OK
+Acceleration | 0.203   | 0.173    | 3.7 W     | 11.3 J     | ✅ OK
+Acceleration | 0.268   | 0.228    | 4.8 W     | 11.7 J     | ✅ OK
+Acceleration | 0.336   | 0.286    | 6.0 W     | 12.3 J     | 🛡️ CLIPPED
+Acceleration | 0.405   | 0.344    | 7.3 W     | 13.1 J     | 🛡️ CLIPPED
+Acceleration | 0.472   | 0.401    | 8.5 W     | 13.9 J     | 🛡️ CLIPPED
+Acceleration | 0.534   | 0.454    | 9.6 W     | 14.9 J     | 🛡️ CLIPPED
+Acceleration | 0.549   | 0.466    | 9.9 W     | 15.9 J     | 🛡️ CLIPPED
+Acceleration | 0.488   | 0.415    | 8.8 W     | 16.7 J     | 🛡️ CLIPPED
+Acceleration | 0.422   | 0.358    | 7.6 W     | 17.5 J     | 🛡️ CLIPPED
+Acceleration | 0.353   | 0.300    | 6.4 W     | 18.1 J     | 🛡️ CLIPPED
+Acceleration | 0.284   | 0.242    | 5.1 W     | 18.7 J     | ✅ OK
+Acceleration | 0.219   | 0.186    | 3.9 W     | 19.0 J     | ✅ OK
+Acceleration | 0.158   | 0.135    | 2.9 W     | 19.3 J     | ✅ OK
+Acceleration | 0.106   | 0.090    | 1.9 W     | 19.5 J     | ✅ OK
+Acceleration | 0.064   | 0.054    | 1.1 W     | 19.6 J     | ✅ OK
+Acceleration | 0.033   | 0.028    | 0.6 W     | 19.7 J     | ✅ OK
+Acceleration | 0.015   | 0.013    | 0.3 W     | 19.7 J     | ✅ OK
+Acceleration | 0.011   | 0.010    | 0.2 W     | 19.7 J     | ✅ OK
+Acceleration | 0.021   | 0.018    | 0.4 W     | 19.8 J     | ✅ OK
+Acceleration | 0.044   | 0.037    | 0.8 W     | 19.9 J     | ✅ OK
+Acceleration | 0.079   | 0.067    | 1.4 W     | 20.0 J     | ✅ OK
+Acceleration | 0.126   | 0.107    | 2.3 W     | 20.2 J     | ✅ OK
+Acceleration | 0.109   | 0.092    | 2.0 W     | 20.4 J     | ✅ OK
+Storm/Chaos  | -0.130   | -0.110    | 2.3 W     | 20.7 J     | ✅ OK
+Storm/Chaos  | -0.263   | -0.224    | 4.7 W     | 21.1 J     | ✅ OK
+Storm/Chaos  | -1.047   | -0.890    | 18.8 W     | 23.0 J     | 🛡️ CLIPPED
+Storm/Chaos  | -1.401   | -1.191    | 25.2 W     | 25.5 J     | 🛡️ CLIPPED
+Storm/Chaos  | -1.274   | -1.083    | 22.9 W     | 27.8 J     | 🛡️ CLIPPED
+Storm/Chaos  | -0.780   | -0.663    | 14.0 W     | 29.2 J     | 🛡️ CLIPPED
+Storm/Chaos  | -0.135   | -0.115    | 2.4 W     | 29.5 J     | ✅ OK
+Storm/Chaos  | 0.430   | 0.366    | 7.7 W     | 30.3 J     | 🛡️ CLIPPED
+Storm/Chaos  | 0.767   | 0.652    | 13.8 W     | 31.6 J     | 🛡️ CLIPPED
+Storm/Chaos  | 0.206   | 0.175    | 3.7 W     | 32.0 J     | ✅ OK
+Storm/Chaos  | -0.755   | -0.642    | 13.6 W     | 33.4 J     | 🛡️ CLIPPED
+Storm/Chaos  | -1.401   | -1.190    | 25.2 W     | 35.9 J     | 🛡️ CLIPPED
+Storm/Chaos  | -1.533   | -1.275    | 30.9 W     | 39.0 J     | 🛡️ CLIPPED
+Storm/Chaos  | -1.130   | -0.960    | 20.3 W     | 41.0 J     | 🛡️ CLIPPED
+Storm/Chaos  | -0.356   | -0.302    | 6.4 W     | 41.7 J     | 🛡️ CLIPPED
+Storm/Chaos  | 0.505   | 0.429    | 9.1 W     | 42.6 J     | 🛡️ CLIPPED
+Storm/Chaos  | 1.103   | 0.938    | 19.9 W     | 44.5 J     | 🛡️ CLIPPED
+Storm/Chaos  | 0.789   | 0.671    | 14.2 W     | 46.0 J     | 🛡️ CLIPPED
+Storm/Chaos  | 0.285   | 0.242    | 5.1 W     | 46.5 J     | ✅ OK
+Storm/Chaos  | -0.249   | -0.212    | 4.5 W     | 46.9 J     | ✅ OK
+Storm/Chaos  | -0.619   | -0.526    | 11.1 W     | 48.0 J     | 🛡️ CLIPPED
+Storm/Chaos  | -0.678   | -0.576    | 12.2 W     | 49.3 J     | 🛡️ CLIPPED
+Storm/Chaos  | -0.400   | -0.340    | 7.2 W     | 50.0 J     | 🛡️ CLIPPED
+Storm/Chaos  | 0.104   | 0.088    | 1.9 W     | 50.2 J     | ✅ OK
+Storm/Chaos  | 0.623   | 0.530    | 11.2 W     | 51.3 J     | 🛡️ CLIPPED
+Storm/Chaos  | 0.936   | 0.796    | 16.9 W     | 53.0 J     | 🛡️ CLIPPED
+Storm/Chaos  | 0.902   | 0.767    | 16.2 W     | 54.6 J     | 🛡️ CLIPPED
+Storm/Chaos  | 0.528   | 0.449    | 9.5 W     | 55.6 J     | 🛡️ CLIPPED
+Storm/Chaos  | -0.027   | -0.023    | 0.5 W     | 55.6 J     | ✅ OK
+Storm/Chaos  | -0.510   | -0.433    | 9.2 W     | 56.5 J     | 🛡️ CLIPPED
+Storm/Chaos  | -0.679   | -0.578    | 12.2 W     | 57.7 J     | 🛡️ CLIPPED
+Storm/Chaos  | -0.405   | -0.345    | 7.3 W     | 58.5 J     | 🛡️ CLIPPED
+Storm/Chaos  | -0.448   | -0.381    | 8.1 W     | 59.3 J     | 🛡️ CLIPPED
+Storm/Chaos  | -0.301   | -0.256    | 5.4 W     | 59.8 J     | ✅ OK
+Storm/Chaos  | -0.095   | -0.081    | 1.7 W     | 60.0 J     | ✅ OK
+Storm/Chaos  | 0.037   | 0.031    | 0.7 W     | 60.1 J     | ✅ OK
+Storm/Chaos  | 0.032   | 0.027    | 0.6 W     | 60.1 J     | ✅ OK
+Storm/Chaos  | -0.068   | -0.058    | 1.2 W     | 60.2 J     | ✅ OK
+Storm/Chaos  | -0.139   | -0.119    | 2.5 W     | 60.5 J     | ✅ OK
+Storm/Chaos  | -0.534   | -0.454    | 9.6 W     | 61.4 J     | 🛡️ CLIPPED
+Storm/Chaos  | -1.204   | -1.024    | 21.7 W     | 63.6 J     | 🛡️ CLIPPED
+Storm/Chaos  | -1.411   | -1.199    | 25.4 W     | 66.2 J     | 🛡️ CLIPPED
+Storm/Chaos  | -1.156   | -0.982    | 20.8 W     | 68.2 J     | 🛡️ CLIPPED
+Storm/Chaos  | -0.591   | -0.502    | 10.6 W     | 69.3 J     | 🛡️ CLIPPED
+Storm/Chaos  | 0.052   | 0.044    | 0.9 W     | 69.4 J     | ✅ OK
+Storm/Chaos  | 0.560   | 0.476    | 10.1 W     | 70.4 J     | 🛡️ CLIPPED
+Storm/Chaos  | 0.817   | 0.694    | 14.7 W     | 71.9 J     | 🛡️ CLIPPED
+Storm/Chaos  | -0.099   | -0.085    | 1.8 W     | 72.1 J     | ✅ OK
+Storm/Chaos  | -0.994   | -0.845    | 17.9 W     | 73.8 J     | 🛡️ CLIPPED
+Storm/Chaos  | -1.499   | -1.274    | 27.0 W     | 76.5 J     | 🛡️ CLIPPED
+Storm/Chaos  | -1.463   | -1.244    | 26.3 W     | 79.2 J     | 🛡️ CLIPPED
+Storm/Chaos  | -0.925   | -0.786    | 16.6 W     | 80.8 J     | 🛡️ CLIPPED
+Storm/Chaos  | -0.092   | -0.078    | 1.6 W     | 81.0 J     | ✅ OK
+Storm/Chaos  | 0.734   | 0.624    | 13.2 W     | 82.3 J     | 🛡️ CLIPPED
+Storm/Chaos  | 1.035   | 0.880    | 18.6 W     | 84.2 J     | 🛡️ CLIPPED
+Storm/Chaos  | 0.652   | 0.554    | 11.7 W     | 85.4 J     | 🛡️ CLIPPED
+Storm/Chaos  | 0.118   | 0.101    | 2.1 W     | 85.6 J     | ✅ OK
+Storm/Chaos  | -0.386   | -0.328    | 7.0 W     | 86.3 J     | 🛡️ CLIPPED
+Storm/Chaos  | -0.673   | -0.572    | 12.1 W     | 87.5 J     | 🛡️ CLIPPED
+Storm/Chaos  | -0.628   | -0.533    | 11.3 W     | 88.6 J     | 🛡️ CLIPPED
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 106.6 J     | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 124.6 J     | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 142.6 J     | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 160.6 J     | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 178.6 J     | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 196.6 J     | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 214.6 J     | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 232.6 J     | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 250.6 J     | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 268.6 J     | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 286.6 J     | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 304.6 J     | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 322.6 J     | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 340.6 J     | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 358.6 J     | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 376.6 J     | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 394.6 J     | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 412.6 J     | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 430.6 J     | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 448.6 J     | 🚨 FAIL-SAFE
+Recovery     | 0.209   | 0.178    | 3.8 W     | 449.0 J     | ✅ OK
+Recovery     | 0.210   | 0.178    | 3.8 W     | 449.4 J     | ✅ OK
+Recovery     | 0.214   | 0.182    | 3.8 W     | 449.7 J     | ✅ OK
+Recovery     | 0.220   | 0.187    | 4.0 W     | 450.1 J     | ✅ OK
+Recovery     | 0.228   | 0.194    | 4.1 W     | 450.6 J     | ✅ OK
+Recovery     | 0.239   | 0.203    | 4.3 W     | 451.0 J     | ✅ OK
+Recovery     | 0.252   | 0.214    | 4.5 W     | 451.4 J     | ✅ OK
+Recovery     | 0.266   | 0.226    | 4.8 W     | 451.9 J     | ✅ OK
+Recovery     | 0.283   | 0.241    | 5.1 W     | 452.4 J     | ✅ OK
+Recovery     | 0.301   | 0.256    | 5.4 W     | 453.0 J     | ✅ OK
+Recovery     | 0.320   | 0.272    | 5.8 W     | 453.5 J     | ✅ OK
+Recovery     | 0.341   | 0.289    | 6.1 W     | 454.2 J     | 🛡️ CLIPPED
+Recovery     | 0.361   | 0.307    | 6.5 W     | 454.8 J     | 🛡️ CLIPPED
+Recovery     | 0.382   | 0.325    | 6.9 W     | 455.5 J     | 🛡️ CLIPPED
+Recovery     | 0.403   | 0.343    | 7.3 W     | 456.2 J     | 🛡️ CLIPPED
+Recovery     | 0.424   | 0.360    | 7.6 W     | 457.0 J     | 🛡️ CLIPPED
+Recovery     | 0.428   | 0.364    | 7.7 W     | 457.8 J     | 🛡️ CLIPPED
+Recovery     | 0.393   | 0.334    | 7.1 W     | 458.5 J     | 🛡️ CLIPPED
+Recovery     | 0.357   | 0.304    | 6.4 W     | 459.1 J     | 🛡️ CLIPPED
+Recovery     | 0.322   | 0.273    | 5.8 W     | 459.7 J     | ✅ OK
+Recovery     | 0.287   | 0.244    | 5.2 W     | 460.2 J     | ✅ OK
+Recovery     | 0.253   | 0.215    | 4.6 W     | 460.7 J     | ✅ OK
+Recovery     | 0.221   | 0.188    | 4.0 W     | 461.1 J     | ✅ OK
+Recovery     | 0.192   | 0.163    | 3.4 W     | 461.4 J     | ✅ OK
+Recovery     | 0.164   | 0.140    | 3.0 W     | 461.7 J     | ✅ OK
+Recovery     | 0.140   | 0.119    | 2.5 W     | 461.9 J     | ✅ OK
+Recovery     | 0.119   | 0.102    | 2.1 W     | 462.2 J     | ✅ OK
+Recovery     | 0.102   | 0.087    | 1.8 W     | 462.3 J     | ✅ OK
+Recovery     | 0.089   | 0.075    | 1.6 W     | 462.5 J     | ✅ OK
+Recovery     | 0.079   | 0.067    | 1.4 W     | 462.7 J     | ✅ OK
+Recovery     | 0.074   | 0.063    | 1.3 W     | 462.8 J     | ✅ OK
+Recovery     | 0.073   | 0.062    | 1.3 W     | 462.9 J     | ✅ OK
+Recovery     | 0.076   | 0.065    | 1.4 W     | 463.1 J     | ✅ OK
+Recovery     | 0.083   | 0.071    | 1.5 W     | 463.2 J     | ✅ OK
+Recovery     | 0.094   | 0.080    | 1.7 W     | 463.4 J     | ✅ OK
+Recovery     | 0.109   | 0.093    | 2.0 W     | 463.6 J     | ✅ OK
+Recovery     | 0.128   | 0.109    | 2.3 W     | 463.8 J     | ✅ OK
+Recovery     | 0.149   | 0.127    | 2.7 W     | 464.1 J     | ✅ OK
+Recovery     | 0.174   | 0.148    | 3.1 W     | 464.4 J     | ✅ OK
+Recovery     | 0.201   | 0.171    | 3.6 W     | 464.7 J     | ✅ OK
+Calm Water   | 0.201   | 0.171    | 3.6 W     | 465.1 J     | ✅ OK
+Calm Water   | 0.200   | 0.170    | 3.6 W     | 465.5 J     | ✅ OK
+Calm Water   | 0.201   | 0.171    | 3.6 W     | 465.8 J     | ✅ OK
+Calm Water   | 0.203   | 0.173    | 3.7 W     | 466.2 J     | ✅ OK
+Calm Water   | 0.207   | 0.176    | 3.7 W     | 466.6 J     | ✅ OK
+Calm Water   | 0.212   | 0.180    | 3.8 W     | 466.9 J     | ✅ OK
+Calm Water   | 0.218   | 0.185    | 3.9 W     | 467.3 J     | ✅ OK
+Calm Water   | 0.226   | 0.192    | 4.1 W     | 467.7 J     | ✅ OK
+Calm Water   | 0.235   | 0.200    | 4.2 W     | 468.2 J     | ✅ OK
+Calm Water   | 0.245   | 0.209    | 4.4 W     | 468.6 J     | ✅ OK
+Calm Water   | 0.257   | 0.218    | 4.6 W     | 469.1 J     | ✅ OK
+Calm Water   | 0.269   | 0.229    | 4.8 W     | 469.6 J     | ✅ OK
+Calm Water   | 0.283   | 0.240    | 5.1 W     | 470.1 J     | ✅ OK
+Calm Water   | 0.297   | 0.253    | 5.3 W     | 470.6 J     | ✅ OK
+Calm Water   | 0.312   | 0.265    | 5.6 W     | 471.2 J     | ✅ OK
+Calm Water   | 0.327   | 0.278    | 5.9 W     | 471.8 J     | ✅ OK
+Calm Water   | 0.343   | 0.292    | 6.2 W     | 472.4 J     | 🛡️ CLIPPED
+Calm Water   | 0.359   | 0.305    | 6.5 W     | 473.0 J     | 🛡️ CLIPPED
+Calm Water   | 0.375   | 0.319    | 6.8 W     | 473.7 J     | 🛡️ CLIPPED
+Calm Water   | 0.391   | 0.333    | 7.0 W     | 474.4 J     | 🛡️ CLIPPED
+Calm Water   | 0.399   | 0.339    | 7.2 W     | 475.1 J     | 🛡️ CLIPPED
+Calm Water   | 0.388   | 0.329    | 7.0 W     | 475.8 J     | 🛡️ CLIPPED
+Calm Water   | 0.376   | 0.319    | 6.8 W     | 476.5 J     | 🛡️ CLIPPED
+Calm Water   | 0.364   | 0.309    | 6.6 W     | 477.1 J     | 🛡️ CLIPPED
+Calm Water   | 0.352   | 0.300    | 6.3 W     | 477.8 J     | 🛡️ CLIPPED
+Calm Water   | 0.341   | 0.290    | 6.1 W     | 478.4 J     | 🛡️ CLIPPED
+Calm Water   | 0.330   | 0.280    | 5.9 W     | 479.0 J     | ✅ OK
+Calm Water   | 0.319   | 0.271    | 5.7 W     | 479.6 J     | ✅ OK
+Calm Water   | 0.309   | 0.262    | 5.6 W     | 480.1 J     | ✅ OK
+Calm Water   | 0.299   | 0.254    | 5.4 W     | 480.7 J     | ✅ OK
+Calm Water   | 0.290   | 0.247    | 5.2 W     | 481.2 J     | ✅ OK
+Calm Water   | 0.282   | 0.240    | 5.1 W     | 481.7 J     | ✅ OK
+Calm Water   | 0.275   | 0.234    | 5.0 W     | 482.2 J     | ✅ OK
+Calm Water   | 0.269   | 0.229    | 4.8 W     | 482.7 J     | ✅ OK
+Calm Water   | 0.264   | 0.224    | 4.7 W     | 483.1 J     | ✅ OK
+Calm Water   | 0.260   | 0.221    | 4.7 W     | 483.6 J     | ✅ OK
+Calm Water   | 0.257   | 0.218    | 4.6 W     | 484.1 J     | ✅ OK
+Calm Water   | 0.255   | 0.216    | 4.6 W     | 484.5 J     | ✅ OK
+Calm Water   | 0.254   | 0.216    | 4.6 W     | 485.0 J     | ✅ OK
+Calm Water   | 0.254   | 0.216    | 4.6 W     | 485.4 J     | ✅ OK
+Acceleration | 0.011   | 0.009    | 0.2 W     | 485.5 J     | ✅ OK
+Acceleration | 0.019   | 0.016    | 0.3 W     | 485.5 J     | ✅ OK
+Acceleration | 0.040   | 0.034    | 0.7 W     | 485.6 J     | ✅ OK
+Acceleration | 0.074   | 0.063    | 1.3 W     | 485.7 J     | ✅ OK
+Acceleration | 0.119   | 0.101    | 2.1 W     | 485.9 J     | ✅ OK
+Acceleration | 0.173   | 0.147    | 3.1 W     | 486.2 J     | ✅ OK
+Acceleration | 0.235   | 0.200    | 4.2 W     | 486.7 J     | ✅ OK
+Acceleration | 0.302   | 0.257    | 5.4 W     | 487.2 J     | ✅ OK
+Acceleration | 0.371   | 0.315    | 6.7 W     | 487.9 J     | 🛡️ CLIPPED
+Acceleration | 0.439   | 0.373    | 7.9 W     | 488.7 J     | 🛡️ CLIPPED
+Acceleration | 0.504   | 0.429    | 9.1 W     | 489.6 J     | 🛡️ CLIPPED
+Acceleration | 0.563   | 0.479    | 10.1 W     | 490.6 J     | 🛡️ CLIPPED
+Acceleration | 0.519   | 0.441    | 9.3 W     | 491.5 J     | 🛡️ CLIPPED
+Acceleration | 0.455   | 0.387    | 8.2 W     | 492.3 J     | 🛡️ CLIPPED
+Acceleration | 0.387   | 0.329    | 7.0 W     | 493.0 J     | 🛡️ CLIPPED
+Acceleration | 0.318   | 0.270    | 5.7 W     | 493.6 J     | ✅ OK
+Acceleration | 0.251   | 0.213    | 4.5 W     | 494.0 J     | ✅ OK
+Acceleration | 0.187   | 0.159    | 3.4 W     | 494.4 J     | ✅ OK
+Acceleration | 0.131   | 0.111    | 2.4 W     | 494.6 J     | ✅ OK
+Acceleration | 0.083   | 0.071    | 1.5 W     | 494.8 J     | ✅ OK
+Acceleration | 0.047   | 0.040    | 0.8 W     | 494.9 J     | ✅ OK
+Acceleration | 0.023   | 0.019    | 0.4 W     | 494.9 J     | ✅ OK
+Acceleration | 0.012   | 0.010    | 0.2 W     | 494.9 J     | ✅ OK
+Acceleration | 0.014   | 0.012    | 0.3 W     | 494.9 J     | ✅ OK
+Acceleration | 0.031   | 0.026    | 0.6 W     | 495.0 J     | ✅ OK
+Acceleration | 0.060   | 0.051    | 1.1 W     | 495.1 J     | ✅ OK
+Acceleration | 0.101   | 0.086    | 1.8 W     | 495.3 J     | ✅ OK
+Acceleration | 0.134   | 0.114    | 2.4 W     | 495.5 J     | ✅ OK
+Acceleration | 0.086   | 0.073    | 1.5 W     | 495.7 J     | ✅ OK
+Acceleration | 0.048   | 0.041    | 0.9 W     | 495.8 J     | ✅ OK
+Acceleration | 0.024   | 0.020    | 0.4 W     | 495.8 J     | ✅ OK
+Acceleration | 0.012   | 0.010    | 0.2 W     | 495.8 J     | ✅ OK
+Acceleration | 0.014   | 0.012    | 0.2 W     | 495.9 J     | ✅ OK
+Acceleration | 0.030   | 0.025    | 0.5 W     | 495.9 J     | ✅ OK
+Acceleration | 0.058   | 0.050    | 1.0 W     | 496.0 J     | ✅ OK
+Acceleration | 0.099   | 0.084    | 1.8 W     | 496.2 J     | ✅ OK
+Acceleration | 0.150   | 0.127    | 2.7 W     | 496.5 J     | ✅ OK
+Acceleration | 0.209   | 0.178    | 3.8 W     | 496.8 J     | ✅ OK
+Acceleration | 0.274   | 0.233    | 4.9 W     | 497.3 J     | ✅ OK
+Acceleration | 0.342   | 0.291    | 6.2 W     | 498.0 J     | 🛡️ CLIPPED
+Storm/Chaos  | -1.537   | -1.275    | 31.5 W     | 501.1 J     | 🛡️ CLIPPED
+Storm/Chaos  | -1.390   | -1.181    | 25.0 W     | 503.6 J     | 🛡️ CLIPPED
+Storm/Chaos  | -0.770   | -0.654    | 13.9 W     | 505.0 J     | 🛡️ CLIPPED
+Storm/Chaos  | 0.087   | 0.074    | 1.6 W     | 505.1 J     | ✅ OK
+Storm/Chaos  | 0.875   | 0.743    | 15.7 W     | 506.7 J     | 🛡️ CLIPPED
+Storm/Chaos  | 0.975   | 0.829    | 17.6 W     | 508.5 J     | 🛡️ CLIPPED
+Storm/Chaos  | 0.551   | 0.468    | 9.9 W     | 509.5 J     | 🛡️ CLIPPED
+Storm/Chaos  | 0.007   | 0.006    | 0.1 W     | 509.5 J     | ✅ OK
+Storm/Chaos  | -0.468   | -0.398    | 8.4 W     | 510.3 J     | 🛡️ CLIPPED
+Storm/Chaos  | -0.693   | -0.589    | 12.5 W     | 511.6 J     | 🛡️ CLIPPED
+Storm/Chaos  | -0.576   | -0.490    | 10.4 W     | 512.6 J     | 🛡️ CLIPPED
+Storm/Chaos  | -0.163   | -0.138    | 2.9 W     | 512.9 J     | ✅ OK
+Storm/Chaos  | 0.379   | 0.322    | 6.8 W     | 513.6 J     | 🛡️ CLIPPED
+Storm/Chaos  | 0.819   | 0.696    | 14.7 W     | 515.0 J     | 🛡️ CLIPPED
+Storm/Chaos  | 0.966   | 0.821    | 17.4 W     | 516.8 J     | 🛡️ CLIPPED
+Storm/Chaos  | 0.749   | 0.637    | 13.5 W     | 518.1 J     | 🛡️ CLIPPED
+Storm/Chaos  | 0.256   | 0.218    | 4.6 W     | 518.6 J     | ✅ OK
+Storm/Chaos  | -0.296   | -0.252    | 5.3 W     | 519.1 J     | ✅ OK
+Storm/Chaos  | -0.646   | -0.549    | 11.6 W     | 520.3 J     | 🛡️ CLIPPED
+Storm/Chaos  | -0.598   | -0.509    | 10.8 W     | 521.4 J     | 🛡️ CLIPPED
+Storm/Chaos  | -0.456   | -0.388    | 8.2 W     | 522.2 J     | 🛡️ CLIPPED
+Storm/Chaos  | -0.390   | -0.332    | 7.0 W     | 522.9 J     | 🛡️ CLIPPED
+Storm/Chaos  | -0.195   | -0.166    | 3.5 W     | 523.2 J     | ✅ OK
+Storm/Chaos  | -0.013   | -0.011    | 0.2 W     | 523.3 J     | ✅ OK
+Storm/Chaos  | 0.051   | 0.044    | 0.9 W     | 523.4 J     | ✅ OK
+Storm/Chaos  | -0.013   | -0.011    | 0.2 W     | 523.4 J     | ✅ OK
+Storm/Chaos  | -0.117   | -0.100    | 2.1 W     | 523.6 J     | ✅ OK
+Storm/Chaos  | -0.118   | -0.100    | 2.1 W     | 523.8 J     | ✅ OK
+Storm/Chaos  | -0.923   | -0.785    | 16.6 W     | 525.5 J     | 🛡️ CLIPPED
+Storm/Chaos  | -1.371   | -1.165    | 24.7 W     | 527.9 J     | 🛡️ CLIPPED
+Storm/Chaos  | -1.333   | -1.133    | 24.0 W     | 530.3 J     | 🛡️ CLIPPED
+Storm/Chaos  | -0.896   | -0.761    | 16.1 W     | 531.9 J     | 🛡️ CLIPPED
+Storm/Chaos  | -0.261   | -0.222    | 4.7 W     | 532.4 J     | ✅ OK
+Storm/Chaos  | 0.335   | 0.285    | 6.0 W     | 533.0 J     | 🛡️ CLIPPED
+Storm/Chaos  | 0.723   | 0.614    | 13.0 W     | 534.3 J     | 🛡️ CLIPPED
+Storm/Chaos  | 0.405   | 0.344    | 7.3 W     | 535.1 J     | 🛡️ CLIPPED
+Storm/Chaos  | -0.584   | -0.497    | 10.5 W     | 536.1 J     | 🛡️ CLIPPED
+Storm/Chaos  | -1.311   | -1.115    | 23.6 W     | 538.5 J     | 🛡️ CLIPPED
+Storm/Chaos  | -1.551   | -1.275    | 33.1 W     | 541.8 J     | 🛡️ CLIPPED
+Storm/Chaos  | -1.245   | -1.058    | 22.4 W     | 544.0 J     | 🛡️ CLIPPED
+Storm/Chaos  | -0.523   | -0.445    | 9.4 W     | 545.0 J     | 🛡️ CLIPPED
+Storm/Chaos  | 0.345   | 0.293    | 6.2 W     | 545.6 J     | 🛡️ CLIPPED
+Storm/Chaos  | 1.056   | 0.898    | 19.0 W     | 547.5 J     | 🛡️ CLIPPED
+Storm/Chaos  | 0.869   | 0.739    | 15.6 W     | 549.0 J     | 🛡️ CLIPPED
+Storm/Chaos  | 0.392   | 0.333    | 7.0 W     | 549.7 J     | 🛡️ CLIPPED
+Storm/Chaos  | -0.152   | -0.130    | 2.7 W     | 550.0 J     | ✅ OK
+Storm/Chaos  | -0.568   | -0.483    | 10.2 W     | 551.0 J     | 🛡️ CLIPPED
+Storm/Chaos  | -0.694   | -0.590    | 12.5 W     | 552.3 J     | 🛡️ CLIPPED
+Storm/Chaos  | -0.477   | -0.406    | 8.6 W     | 553.2 J     | 🛡️ CLIPPED
+Storm/Chaos  | -0.003   | -0.003    | 0.1 W     | 553.2 J     | ✅ OK
+Storm/Chaos  | 0.532   | 0.452    | 9.6 W     | 554.1 J     | 🛡️ CLIPPED
+Storm/Chaos  | 0.900   | 0.765    | 16.2 W     | 555.7 J     | 🛡️ CLIPPED
+Storm/Chaos  | 0.938   | 0.797    | 16.9 W     | 557.4 J     | 🛡️ CLIPPED
+Storm/Chaos  | 0.622   | 0.528    | 11.2 W     | 558.5 J     | 🛡️ CLIPPED
+Storm/Chaos  | 0.084   | 0.071    | 1.5 W     | 558.7 J     | ✅ OK
+Storm/Chaos  | -0.434   | -0.369    | 7.8 W     | 559.5 J     | 🛡️ CLIPPED
+Storm/Chaos  | -0.679   | -0.577    | 12.2 W     | 560.7 J     | 🛡️ CLIPPED
+Storm/Chaos  | -0.494   | -0.420    | 8.9 W     | 561.6 J     | 🛡️ CLIPPED
+Storm/Chaos  | -0.458   | -0.389    | 8.2 W     | 562.4 J     | 🛡️ CLIPPED
+Storm/Chaos  | -0.339   | -0.288    | 6.1 W     | 563.0 J     | 🛡️ CLIPPED
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 581.0 J     | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 599.0 J     | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 617.0 J     | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 635.0 J     | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 653.0 J     | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 671.0 J     | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 689.0 J     | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 707.0 J     | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 725.0 J     | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 743.0 J     | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 761.0 J     | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 779.0 J     | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 797.0 J     | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 815.0 J     | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 833.0 J     | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 851.0 J     | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 869.0 J     | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 887.0 J     | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 905.0 J     | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 923.0 J     | 🚨 FAIL-SAFE
+Recovery     | 0.096   | 0.081    | 1.7 W     | 923.2 J     | ✅ OK
+Recovery     | 0.075   | 0.064    | 1.4 W     | 923.3 J     | ✅ OK
+Recovery     | 0.059   | 0.050    | 1.1 W     | 923.4 J     | ✅ OK
+Recovery     | 0.047   | 0.040    | 0.8 W     | 923.5 J     | ✅ OK
+Recovery     | 0.040   | 0.034    | 0.7 W     | 923.6 J     | ✅ OK
+Recovery     | 0.037   | 0.031    | 0.7 W     | 923.7 J     | ✅ OK
+Recovery     | 0.039   | 0.033    | 0.7 W     | 923.7 J     | ✅ OK
+Recovery     | 0.045   | 0.039    | 0.8 W     | 923.8 J     | ✅ OK
+Recovery     | 0.057   | 0.048    | 1.0 W     | 923.9 J     | ✅ OK
+Recovery     | 0.072   | 0.061    | 1.3 W     | 924.0 J     | ✅ OK
+Recovery     | 0.091   | 0.078    | 1.6 W     | 924.2 J     | ✅ OK
+Recovery     | 0.115   | 0.097    | 2.1 W     | 924.4 J     | ✅ OK
+Recovery     | 0.141   | 0.120    | 2.5 W     | 924.7 J     | ✅ OK
+Recovery     | 0.171   | 0.145    | 3.1 W     | 925.0 J     | ✅ OK
+Recovery     | 0.203   | 0.173    | 3.7 W     | 925.3 J     | ✅ OK
+Recovery     | 0.238   | 0.202    | 4.3 W     | 925.8 J     | ✅ OK
+Recovery     | 0.274   | 0.233    | 4.9 W     | 926.3 J     | ✅ OK
+Recovery     | 0.299   | 0.254    | 5.4 W     | 926.8 J     | ✅ OK
+Recovery     | 0.283   | 0.241    | 5.1 W     | 927.3 J     | ✅ OK
+Recovery     | 0.268   | 0.228    | 4.8 W     | 927.8 J     | ✅ OK
+Recovery     | 0.254   | 0.216    | 4.6 W     | 928.2 J     | ✅ OK
+Recovery     | 0.241   | 0.205    | 4.3 W     | 928.7 J     | ✅ OK
+Recovery     | 0.230   | 0.196    | 4.1 W     | 929.1 J     | ✅ OK
+Recovery     | 0.222   | 0.188    | 4.0 W     | 929.5 J     | ✅ OK
+Recovery     | 0.215   | 0.183    | 3.9 W     | 929.9 J     | ✅ OK
+Recovery     | 0.211   | 0.179    | 3.8 W     | 930.3 J     | ✅ OK
+Recovery     | 0.209   | 0.178    | 3.8 W     | 930.6 J     | ✅ OK
+Recovery     | 0.210   | 0.178    | 3.8 W     | 931.0 J     | ✅ OK
+Recovery     | 0.213   | 0.181    | 3.8 W     | 931.4 J     | ✅ OK
+Recovery     | 0.218   | 0.185    | 3.9 W     | 931.8 J     | ✅ OK
+Recovery     | 0.226   | 0.192    | 4.1 W     | 932.2 J     | ✅ OK
+Recovery     | 0.236   | 0.201    | 4.3 W     | 932.6 J     | ✅ OK
+Recovery     | 0.249   | 0.212    | 4.5 W     | 933.1 J     | ✅ OK
+Recovery     | 0.263   | 0.224    | 4.7 W     | 933.5 J     | ✅ OK
+Recovery     | 0.280   | 0.238    | 5.0 W     | 934.1 J     | ✅ OK
+Recovery     | 0.297   | 0.253    | 5.4 W     | 934.6 J     | ✅ OK
+Recovery     | 0.317   | 0.269    | 5.7 W     | 935.2 J     | ✅ OK
+Recovery     | 0.337   | 0.286    | 6.1 W     | 935.8 J     | 🛡️ CLIPPED
+Recovery     | 0.357   | 0.304    | 6.4 W     | 936.4 J     | 🛡️ CLIPPED
+Recovery     | 0.378   | 0.321    | 6.8 W     | 937.1 J     | 🛡️ CLIPPED
+Calm Water   | 0.238   | 0.202    | 4.3 W     | 937.5 J     | ✅ OK
+Calm Water   | 0.244   | 0.207    | 4.4 W     | 938.0 J     | ✅ OK
+Calm Water   | 0.251   | 0.213    | 4.5 W     | 938.4 J     | ✅ OK
+Calm Water   | 0.258   | 0.219    | 4.6 W     | 938.9 J     | ✅ OK
+Calm Water   | 0.267   | 0.227    | 4.8 W     | 939.3 J     | ✅ OK
+Calm Water   | 0.276   | 0.235    | 5.0 W     | 939.8 J     | ✅ OK
+Calm Water   | 0.286   | 0.243    | 5.2 W     | 940.4 J     | ✅ OK
+Calm Water   | 0.297   | 0.252    | 5.3 W     | 940.9 J     | ✅ OK
+Calm Water   | 0.308   | 0.262    | 5.5 W     | 941.4 J     | ✅ OK
+Calm Water   | 0.298   | 0.253    | 5.4 W     | 942.0 J     | ✅ OK
+Calm Water   | 0.282   | 0.240    | 5.1 W     | 942.5 J     | ✅ OK
+Calm Water   | 0.268   | 0.228    | 4.8 W     | 943.0 J     | ✅ OK
+Calm Water   | 0.254   | 0.216    | 4.6 W     | 943.4 J     | ✅ OK
+Calm Water   | 0.241   | 0.205    | 4.3 W     | 943.9 J     | ✅ OK
+Calm Water   | 0.229   | 0.194    | 4.1 W     | 944.3 J     | ✅ OK
+Calm Water   | 0.218   | 0.185    | 3.9 W     | 944.7 J     | ✅ OK
+Calm Water   | 0.208   | 0.177    | 3.7 W     | 945.0 J     | ✅ OK
+Calm Water   | 0.200   | 0.170    | 3.6 W     | 945.4 J     | ✅ OK
+Calm Water   | 0.193   | 0.164    | 3.5 W     | 945.7 J     | ✅ OK
+Calm Water   | 0.187   | 0.159    | 3.4 W     | 946.1 J     | ✅ OK
+Calm Water   | 0.183   | 0.156    | 3.3 W     | 946.4 J     | ✅ OK
+Calm Water   | 0.181   | 0.154    | 3.3 W     | 946.7 J     | ✅ OK
+Calm Water   | 0.180   | 0.153    | 3.2 W     | 947.1 J     | ✅ OK
+Calm Water   | 0.181   | 0.154    | 3.3 W     | 947.4 J     | ✅ OK
+Calm Water   | 0.183   | 0.156    | 3.3 W     | 947.7 J     | ✅ OK
+Calm Water   | 0.187   | 0.159    | 3.4 W     | 948.1 J     | ✅ OK
+Calm Water   | 0.193   | 0.164    | 3.5 W     | 948.4 J     | ✅ OK
+Calm Water   | 0.200   | 0.170    | 3.6 W     | 948.8 J     | ✅ OK
+Calm Water   | 0.209   | 0.178    | 3.8 W     | 949.1 J     | ✅ OK
+Calm Water   | 0.219   | 0.186    | 3.9 W     | 949.5 J     | ✅ OK
+Calm Water   | 0.230   | 0.196    | 4.1 W     | 949.9 J     | ✅ OK
+Calm Water   | 0.243   | 0.207    | 4.4 W     | 950.4 J     | ✅ OK
+Calm Water   | 0.257   | 0.218    | 4.6 W     | 950.8 J     | ✅ OK
+Calm Water   | 0.272   | 0.231    | 4.9 W     | 951.3 J     | ✅ OK
+Calm Water   | 0.287   | 0.244    | 5.2 W     | 951.9 J     | ✅ OK
+Calm Water   | 0.303   | 0.258    | 5.5 W     | 952.4 J     | ✅ OK
+Calm Water   | 0.320   | 0.272    | 5.8 W     | 953.0 J     | ✅ OK
+Calm Water   | 0.337   | 0.287    | 6.1 W     | 953.6 J     | 🛡️ CLIPPED
+Calm Water   | 0.355   | 0.302    | 6.4 W     | 954.2 J     | 🛡️ CLIPPED
+Calm Water   | 0.372   | 0.317    | 6.7 W     | 954.9 J     | 🛡️ CLIPPED
+Acceleration | 0.548   | 0.466    | 9.9 W     | 955.9 J     | 🛡️ CLIPPED
+Acceleration | 0.487   | 0.414    | 8.8 W     | 956.8 J     | 🛡️ CLIPPED
+Acceleration | 0.421   | 0.358    | 7.6 W     | 957.5 J     | 🛡️ CLIPPED
+Acceleration | 0.352   | 0.299    | 6.3 W     | 958.1 J     | 🛡️ CLIPPED
+Acceleration | 0.284   | 0.241    | 5.1 W     | 958.7 J     | ✅ OK
+Acceleration | 0.218   | 0.185    | 3.9 W     | 959.1 J     | ✅ OK
+Acceleration | 0.158   | 0.134    | 2.8 W     | 959.3 J     | ✅ OK
+Acceleration | 0.106   | 0.090    | 1.9 W     | 959.5 J     | ✅ OK
+Acceleration | 0.064   | 0.054    | 1.1 W     | 959.6 J     | ✅ OK
+Acceleration | 0.033   | 0.028    | 0.6 W     | 959.7 J     | ✅ OK
+Acceleration | 0.015   | 0.013    | 0.3 W     | 959.7 J     | ✅ OK
+Acceleration | 0.011   | 0.010    | 0.2 W     | 959.7 J     | ✅ OK
+Acceleration | 0.021   | 0.018    | 0.4 W     | 959.8 J     | ✅ OK
+Acceleration | 0.044   | 0.037    | 0.8 W     | 959.9 J     | ✅ OK
+Acceleration | 0.080   | 0.068    | 1.4 W     | 960.0 J     | ✅ OK
+Acceleration | 0.126   | 0.107    | 2.3 W     | 960.2 J     | ✅ OK
+Acceleration | 0.108   | 0.092    | 1.9 W     | 960.4 J     | ✅ OK
+Acceleration | 0.065   | 0.056    | 1.2 W     | 960.5 J     | ✅ OK
+Acceleration | 0.034   | 0.029    | 0.6 W     | 960.6 J     | ✅ OK
+Acceleration | 0.016   | 0.014    | 0.3 W     | 960.6 J     | ✅ OK
+Acceleration | 0.011   | 0.009    | 0.2 W     | 960.7 J     | ✅ OK
+Acceleration | 0.020   | 0.017    | 0.4 W     | 960.7 J     | ✅ OK
+Acceleration | 0.042   | 0.036    | 0.8 W     | 960.8 J     | ✅ OK
+Acceleration | 0.077   | 0.066    | 1.4 W     | 960.9 J     | ✅ OK
+Acceleration | 0.123   | 0.105    | 2.2 W     | 961.1 J     | ✅ OK
+Acceleration | 0.179   | 0.152    | 3.2 W     | 961.5 J     | ✅ OK
+Acceleration | 0.241   | 0.205    | 4.3 W     | 961.9 J     | ✅ OK
+Acceleration | 0.308   | 0.262    | 5.5 W     | 962.4 J     | ✅ OK
+Acceleration | 0.377   | 0.320    | 6.8 W     | 963.1 J     | 🛡️ CLIPPED
+Acceleration | 0.445   | 0.378    | 8.0 W     | 963.9 J     | 🛡️ CLIPPED
+Acceleration | 0.510   | 0.433    | 9.2 W     | 964.8 J     | 🛡️ CLIPPED
+Acceleration | 0.568   | 0.483    | 10.2 W     | 965.9 J     | 🛡️ CLIPPED
+Acceleration | 0.513   | 0.436    | 9.2 W     | 966.8 J     | 🛡️ CLIPPED
+Acceleration | 0.449   | 0.382    | 8.1 W     | 967.6 J     | 🛡️ CLIPPED
+Acceleration | 0.381   | 0.324    | 6.9 W     | 968.3 J     | 🛡️ CLIPPED
+Acceleration | 0.312   | 0.265    | 5.6 W     | 968.8 J     | ✅ OK
+Acceleration | 0.245   | 0.208    | 4.4 W     | 969.3 J     | ✅ OK
+Acceleration | 0.182   | 0.155    | 3.3 W     | 969.6 J     | ✅ OK
+Acceleration | 0.126   | 0.107    | 2.3 W     | 969.8 J     | ✅ OK
+Acceleration | 0.080   | 0.068    | 1.4 W     | 970.0 J     | ✅ OK
+Storm/Chaos  | 0.109   | 0.092    | 2.0 W     | 970.2 J     | ✅ OK
+Storm/Chaos  | 0.627   | 0.533    | 11.3 W     | 971.3 J     | 🛡️ CLIPPED
+Storm/Chaos  | 0.938   | 0.797    | 16.9 W     | 973.0 J     | 🛡️ CLIPPED
+Storm/Chaos  | 0.900   | 0.765    | 16.2 W     | 974.6 J     | 🛡️ CLIPPED
+Storm/Chaos  | 0.523   | 0.445    | 9.4 W     | 975.6 J     | 🛡️ CLIPPED
+Storm/Chaos  | -0.032   | -0.027    | 0.6 W     | 975.6 J     | ✅ OK
+Storm/Chaos  | -0.513   | -0.436    | 9.2 W     | 976.5 J     | 🛡️ CLIPPED
+Storm/Chaos  | -0.679   | -0.577    | 12.2 W     | 977.8 J     | 🛡️ CLIPPED
+Storm/Chaos  | -0.405   | -0.345    | 7.3 W     | 978.5 J     | 🛡️ CLIPPED
+Storm/Chaos  | -0.447   | -0.380    | 8.1 W     | 979.3 J     | 🛡️ CLIPPED
+Storm/Chaos  | -0.299   | -0.254    | 5.4 W     | 979.8 J     | ✅ OK
+Storm/Chaos  | -0.093   | -0.079    | 1.7 W     | 980.0 J     | ✅ OK
+Storm/Chaos  | 0.037   | 0.032    | 0.7 W     | 980.1 J     | ✅ OK
+Storm/Chaos  | 0.031   | 0.027    | 0.6 W     | 980.1 J     | ✅ OK
+Storm/Chaos  | -0.069   | -0.059    | 1.2 W     | 980.2 J     | ✅ OK
+Storm/Chaos  | -0.139   | -0.119    | 2.5 W     | 980.5 J     | ✅ OK
+Storm/Chaos  | -0.542   | -0.461    | 9.8 W     | 981.5 J     | 🛡️ CLIPPED
+Storm/Chaos  | -1.208   | -1.027    | 21.7 W     | 983.6 J     | 🛡️ CLIPPED
+Storm/Chaos  | -1.411   | -1.199    | 25.4 W     | 986.2 J     | 🛡️ CLIPPED
+Storm/Chaos  | -1.152   | -0.979    | 20.7 W     | 988.3 J     | 🛡️ CLIPPED
+Storm/Chaos  | -0.585   | -0.497    | 10.5 W     | 989.3 J     | 🛡️ CLIPPED
+Storm/Chaos  | 0.057   | 0.049    | 1.0 W     | 989.4 J     | ✅ OK
+Storm/Chaos  | 0.563   | 0.479    | 10.1 W     | 990.4 J     | 🛡️ CLIPPED
+Storm/Chaos  | 0.818   | 0.695    | 14.7 W     | 991.9 J     | 🛡️ CLIPPED
+Storm/Chaos  | -0.108   | -0.092    | 2.0 W     | 992.1 J     | ✅ OK
+Storm/Chaos  | -1.001   | -0.851    | 18.0 W     | 993.9 J     | 🛡️ CLIPPED
+Storm/Chaos  | -1.501   | -1.275    | 27.1 W     | 996.6 J     | 🛡️ CLIPPED
+Storm/Chaos  | -1.461   | -1.242    | 26.3 W     | 999.2 J     | 🛡️ CLIPPED
+Storm/Chaos  | -0.918   | -0.780    | 16.5 W     | 1.00 kJ   | 🛡️ CLIPPED
+Storm/Chaos  | -0.084   | -0.071    | 1.5 W     | 1.00 kJ   | ✅ OK
+Storm/Chaos  | 0.741   | 0.630    | 13.3 W     | 1.00 kJ   | 🛡️ CLIPPED
+Storm/Chaos  | 1.033   | 0.878    | 18.6 W     | 1.00 kJ   | 🛡️ CLIPPED
+Storm/Chaos  | 0.648   | 0.550    | 11.7 W     | 1.01 kJ   | 🛡️ CLIPPED
+Storm/Chaos  | 0.114   | 0.097    | 2.0 W     | 1.01 kJ   | ✅ OK
+Storm/Chaos  | -0.390   | -0.332    | 7.0 W     | 1.01 kJ   | 🛡️ CLIPPED
+Storm/Chaos  | -0.675   | -0.573    | 12.1 W     | 1.01 kJ   | 🛡️ CLIPPED
+Storm/Chaos  | -0.626   | -0.532    | 11.3 W     | 1.01 kJ   | 🛡️ CLIPPED
+Storm/Chaos  | -0.260   | -0.221    | 4.7 W     | 1.01 kJ   | ✅ OK
+Storm/Chaos  | 0.274   | 0.233    | 4.9 W     | 1.01 kJ   | ✅ OK
+Storm/Chaos  | 0.751   | 0.639    | 13.5 W     | 1.01 kJ   | 🛡️ CLIPPED
+Storm/Chaos  | 0.966   | 0.821    | 17.4 W     | 1.01 kJ   | 🛡️ CLIPPED
+Storm/Chaos  | 0.818   | 0.695    | 14.7 W     | 1.01 kJ   | 🛡️ CLIPPED
+Storm/Chaos  | 0.365   | 0.310    | 6.6 W     | 1.01 kJ   | 🛡️ CLIPPED
+Storm/Chaos  | -0.197   | -0.167    | 3.5 W     | 1.02 kJ   | ✅ OK
+Storm/Chaos  | -0.605   | -0.514    | 10.9 W     | 1.02 kJ   | 🛡️ CLIPPED
+Storm/Chaos  | -0.644   | -0.547    | 11.6 W     | 1.02 kJ   | 🛡️ CLIPPED
+Storm/Chaos  | -0.444   | -0.377    | 8.0 W     | 1.02 kJ   | 🛡️ CLIPPED
+Storm/Chaos  | -0.417   | -0.355    | 7.5 W     | 1.02 kJ   | 🛡️ CLIPPED
+Storm/Chaos  | -0.236   | -0.201    | 4.3 W     | 1.02 kJ   | ✅ OK
+Storm/Chaos  | -0.042   | -0.035    | 0.8 W     | 1.02 kJ   | ✅ OK
+Storm/Chaos  | 0.050   | 0.042    | 0.9 W     | 1.02 kJ   | ✅ OK
+Storm/Chaos  | 0.007   | 0.006    | 0.1 W     | 1.02 kJ   | ✅ OK
+Storm/Chaos  | -0.100   | -0.085    | 1.8 W     | 1.02 kJ   | ✅ OK
+Storm/Chaos  | -0.132   | -0.113    | 2.4 W     | 1.02 kJ   | ✅ OK
+Storm/Chaos  | -0.784   | -0.667    | 14.1 W     | 1.02 kJ   | 🛡️ CLIPPED
+Storm/Chaos  | -1.321   | -1.123    | 23.8 W     | 1.02 kJ   | 🛡️ CLIPPED
+Storm/Chaos  | -1.377   | -1.170    | 24.8 W     | 1.03 kJ   | 🛡️ CLIPPED
+Storm/Chaos  | -1.004   | -0.853    | 18.1 W     | 1.03 kJ   | 🛡️ CLIPPED
+Storm/Chaos  | -0.389   | -0.330    | 7.0 W     | 1.03 kJ   | 🛡️ CLIPPED
+Storm/Chaos  | 0.232   | 0.197    | 4.2 W     | 1.03 kJ   | ✅ OK
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 1.05 kJ   | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 1.07 kJ   | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 1.08 kJ   | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 1.10 kJ   | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 1.12 kJ   | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 1.14 kJ   | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 1.16 kJ   | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 1.17 kJ   | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 1.19 kJ   | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 1.21 kJ   | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 1.23 kJ   | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 1.25 kJ   | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 1.26 kJ   | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 1.28 kJ   | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 1.30 kJ   | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 1.32 kJ   | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 1.34 kJ   | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 1.35 kJ   | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 1.37 kJ   | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 1.39 kJ   | 🚨 FAIL-SAFE
+Recovery     | 0.273   | 0.232    | 4.9 W     | 1.39 kJ   | ✅ OK
+Recovery     | 0.264   | 0.225    | 4.8 W     | 1.39 kJ   | ✅ OK
+Recovery     | 0.257   | 0.218    | 4.6 W     | 1.39 kJ   | ✅ OK
+Recovery     | 0.251   | 0.213    | 4.5 W     | 1.39 kJ   | ✅ OK
+Recovery     | 0.247   | 0.210    | 4.5 W     | 1.39 kJ   | ✅ OK
+Recovery     | 0.246   | 0.209    | 4.4 W     | 1.39 kJ   | ✅ OK
+Recovery     | 0.246   | 0.209    | 4.4 W     | 1.39 kJ   | ✅ OK
+Recovery     | 0.249   | 0.211    | 4.5 W     | 1.39 kJ   | ✅ OK
+Recovery     | 0.253   | 0.215    | 4.6 W     | 1.39 kJ   | ✅ OK
+Recovery     | 0.260   | 0.221    | 4.7 W     | 1.39 kJ   | ✅ OK
+Recovery     | 0.268   | 0.228    | 4.8 W     | 1.39 kJ   | ✅ OK
+Recovery     | 0.278   | 0.236    | 5.0 W     | 1.39 kJ   | ✅ OK
+Recovery     | 0.290   | 0.246    | 5.2 W     | 1.40 kJ   | ✅ OK
+Recovery     | 0.302   | 0.257    | 5.4 W     | 1.40 kJ   | ✅ OK
+Recovery     | 0.316   | 0.269    | 5.7 W     | 1.40 kJ   | ✅ OK
+Recovery     | 0.331   | 0.281    | 6.0 W     | 1.40 kJ   | ✅ OK
+Recovery     | 0.346   | 0.294    | 6.2 W     | 1.40 kJ   | 🛡️ CLIPPED
+Recovery     | 0.362   | 0.308    | 6.5 W     | 1.40 kJ   | 🛡️ CLIPPED
+Recovery     | 0.369   | 0.314    | 6.6 W     | 1.40 kJ   | 🛡️ CLIPPED
+Recovery     | 0.330   | 0.280    | 5.9 W     | 1.40 kJ   | ✅ OK
+Recovery     | 0.292   | 0.248    | 5.2 W     | 1.40 kJ   | ✅ OK
+Recovery     | 0.254   | 0.216    | 4.6 W     | 1.40 kJ   | ✅ OK
+Recovery     | 0.218   | 0.186    | 3.9 W     | 1.40 kJ   | ✅ OK
+Recovery     | 0.184   | 0.157    | 3.3 W     | 1.40 kJ   | ✅ OK
+Recovery     | 0.153   | 0.130    | 2.8 W     | 1.40 kJ   | ✅ OK
+Recovery     | 0.125   | 0.106    | 2.2 W     | 1.40 kJ   | ✅ OK
+Recovery     | 0.100   | 0.085    | 1.8 W     | 1.40 kJ   | ✅ OK
+Recovery     | 0.079   | 0.067    | 1.4 W     | 1.40 kJ   | ✅ OK
+Recovery     | 0.062   | 0.053    | 1.1 W     | 1.40 kJ   | ✅ OK
+Recovery     | 0.049   | 0.042    | 0.9 W     | 1.40 kJ   | ✅ OK
+Recovery     | 0.041   | 0.035    | 0.7 W     | 1.40 kJ   | ✅ OK
+Recovery     | 0.037   | 0.032    | 0.7 W     | 1.40 kJ   | ✅ OK
+Recovery     | 0.038   | 0.032    | 0.7 W     | 1.40 kJ   | ✅ OK
+Recovery     | 0.044   | 0.037    | 0.8 W     | 1.40 kJ   | ✅ OK
+Recovery     | 0.054   | 0.046    | 1.0 W     | 1.40 kJ   | ✅ OK
+Recovery     | 0.069   | 0.058    | 1.2 W     | 1.40 kJ   | ✅ OK
+Recovery     | 0.087   | 0.074    | 1.6 W     | 1.40 kJ   | ✅ OK
+Recovery     | 0.110   | 0.093    | 2.0 W     | 1.40 kJ   | ✅ OK
+Recovery     | 0.136   | 0.115    | 2.4 W     | 1.40 kJ   | ✅ OK
+Recovery     | 0.165   | 0.140    | 3.0 W     | 1.40 kJ   | ✅ OK
+Calm Water   | 0.364   | 0.309    | 6.6 W     | 1.40 kJ   | 🛡️ CLIPPED
+Calm Water   | 0.352   | 0.299    | 6.3 W     | 1.40 kJ   | 🛡️ CLIPPED
+Calm Water   | 0.341   | 0.290    | 6.1 W     | 1.41 kJ   | 🛡️ CLIPPED
+Calm Water   | 0.330   | 0.280    | 5.9 W     | 1.41 kJ   | ✅ OK
+Calm Water   | 0.319   | 0.271    | 5.7 W     | 1.41 kJ   | ✅ OK
+Calm Water   | 0.309   | 0.262    | 5.6 W     | 1.41 kJ   | ✅ OK
+Calm Water   | 0.299   | 0.254    | 5.4 W     | 1.41 kJ   | ✅ OK
+Calm Water   | 0.290   | 0.247    | 5.2 W     | 1.41 kJ   | ✅ OK
+Calm Water   | 0.282   | 0.240    | 5.1 W     | 1.41 kJ   | ✅ OK
+Calm Water   | 0.275   | 0.234    | 5.0 W     | 1.41 kJ   | ✅ OK
+Calm Water   | 0.269   | 0.229    | 4.8 W     | 1.41 kJ   | ✅ OK
+Calm Water   | 0.264   | 0.224    | 4.7 W     | 1.41 kJ   | ✅ OK
+Calm Water   | 0.260   | 0.221    | 4.7 W     | 1.41 kJ   | ✅ OK
+Calm Water   | 0.257   | 0.218    | 4.6 W     | 1.41 kJ   | ✅ OK
+Calm Water   | 0.255   | 0.216    | 4.6 W     | 1.41 kJ   | ✅ OK
+Calm Water   | 0.254   | 0.216    | 4.6 W     | 1.41 kJ   | ✅ OK
+Calm Water   | 0.254   | 0.216    | 4.6 W     | 1.41 kJ   | ✅ OK
+Calm Water   | 0.256   | 0.217    | 4.6 W     | 1.41 kJ   | ✅ OK
+Calm Water   | 0.258   | 0.219    | 4.6 W     | 1.41 kJ   | ✅ OK
+Calm Water   | 0.262   | 0.222    | 4.7 W     | 1.41 kJ   | ✅ OK
+Calm Water   | 0.266   | 0.226    | 4.8 W     | 1.41 kJ   | ✅ OK
+Calm Water   | 0.271   | 0.231    | 4.9 W     | 1.41 kJ   | ✅ OK
+Calm Water   | 0.278   | 0.236    | 5.0 W     | 1.42 kJ   | ✅ OK
+Calm Water   | 0.285   | 0.242    | 5.1 W     | 1.42 kJ   | ✅ OK
+Calm Water   | 0.293   | 0.249    | 5.3 W     | 1.42 kJ   | ✅ OK
+Calm Water   | 0.301   | 0.256    | 5.4 W     | 1.42 kJ   | ✅ OK
+Calm Water   | 0.310   | 0.263    | 5.6 W     | 1.42 kJ   | ✅ OK
+Calm Water   | 0.319   | 0.271    | 5.7 W     | 1.42 kJ   | ✅ OK
+Calm Water   | 0.329   | 0.279    | 5.9 W     | 1.42 kJ   | ✅ OK
+Calm Water   | 0.314   | 0.267    | 5.7 W     | 1.42 kJ   | ✅ OK
+Calm Water   | 0.297   | 0.253    | 5.4 W     | 1.42 kJ   | ✅ OK
+Calm Water   | 0.281   | 0.239    | 5.1 W     | 1.42 kJ   | ✅ OK
+Calm Water   | 0.265   | 0.225    | 4.8 W     | 1.42 kJ   | ✅ OK
+Calm Water   | 0.250   | 0.212    | 4.5 W     | 1.42 kJ   | ✅ OK
+Calm Water   | 0.236   | 0.200    | 4.2 W     | 1.42 kJ   | ✅ OK
+Calm Water   | 0.223   | 0.189    | 4.0 W     | 1.42 kJ   | ✅ OK
+Calm Water   | 0.211   | 0.179    | 3.8 W     | 1.42 kJ   | ✅ OK
+Calm Water   | 0.200   | 0.170    | 3.6 W     | 1.42 kJ   | ✅ OK
+Calm Water   | 0.191   | 0.162    | 3.4 W     | 1.42 kJ   | ✅ OK
+Calm Water   | 0.183   | 0.156    | 3.3 W     | 1.42 kJ   | ✅ OK
+Acceleration | 0.014   | 0.012    | 0.3 W     | 1.42 kJ   | ✅ OK
+Acceleration | 0.031   | 0.026    | 0.6 W     | 1.42 kJ   | ✅ OK
+Acceleration | 0.060   | 0.051    | 1.1 W     | 1.42 kJ   | ✅ OK
+Acceleration | 0.102   | 0.087    | 1.8 W     | 1.42 kJ   | ✅ OK
+Acceleration | 0.133   | 0.113    | 2.4 W     | 1.42 kJ   | ✅ OK
+Acceleration | 0.085   | 0.073    | 1.5 W     | 1.42 kJ   | ✅ OK
+Acceleration | 0.048   | 0.041    | 0.9 W     | 1.42 kJ   | ✅ OK
+Acceleration | 0.023   | 0.020    | 0.4 W     | 1.42 kJ   | ✅ OK
+Acceleration | 0.012   | 0.010    | 0.2 W     | 1.42 kJ   | ✅ OK
+Acceleration | 0.014   | 0.012    | 0.3 W     | 1.42 kJ   | ✅ OK
+Acceleration | 0.030   | 0.025    | 0.5 W     | 1.42 kJ   | ✅ OK
+Acceleration | 0.059   | 0.050    | 1.1 W     | 1.42 kJ   | ✅ OK
+Acceleration | 0.099   | 0.084    | 1.8 W     | 1.42 kJ   | ✅ OK
+Acceleration | 0.150   | 0.128    | 2.7 W     | 1.43 kJ   | ✅ OK
+Acceleration | 0.209   | 0.178    | 3.8 W     | 1.43 kJ   | ✅ OK
+Acceleration | 0.274   | 0.233    | 4.9 W     | 1.43 kJ   | ✅ OK
+Acceleration | 0.343   | 0.291    | 6.2 W     | 1.43 kJ   | 🛡️ CLIPPED
+Acceleration | 0.412   | 0.350    | 7.4 W     | 1.43 kJ   | 🛡️ CLIPPED
+Acceleration | 0.478   | 0.407    | 8.6 W     | 1.43 kJ   | 🛡️ CLIPPED
+Acceleration | 0.540   | 0.459    | 9.7 W     | 1.43 kJ   | 🛡️ CLIPPED
+Acceleration | 0.543   | 0.461    | 9.8 W     | 1.43 kJ   | 🛡️ CLIPPED
+Acceleration | 0.481   | 0.409    | 8.7 W     | 1.43 kJ   | 🛡️ CLIPPED
+Acceleration | 0.415   | 0.353    | 7.5 W     | 1.43 kJ   | 🛡️ CLIPPED
+Acceleration | 0.346   | 0.294    | 6.2 W     | 1.43 kJ   | 🛡️ CLIPPED
+Acceleration | 0.278   | 0.236    | 5.0 W     | 1.43 kJ   | ✅ OK
+Acceleration | 0.213   | 0.181    | 3.8 W     | 1.43 kJ   | ✅ OK
+Acceleration | 0.153   | 0.130    | 2.8 W     | 1.43 kJ   | ✅ OK
+Acceleration | 0.102   | 0.086    | 1.8 W     | 1.43 kJ   | ✅ OK
+Acceleration | 0.060   | 0.051    | 1.1 W     | 1.43 kJ   | ✅ OK
+Acceleration | 0.031   | 0.026    | 0.6 W     | 1.43 kJ   | ✅ OK
+Acceleration | 0.014   | 0.012    | 0.3 W     | 1.43 kJ   | ✅ OK
+Acceleration | 0.012   | 0.010    | 0.2 W     | 1.43 kJ   | ✅ OK
+Acceleration | 0.022   | 0.019    | 0.4 W     | 1.43 kJ   | ✅ OK
+Acceleration | 0.047   | 0.040    | 0.8 W     | 1.43 kJ   | ✅ OK
+Acceleration | 0.083   | 0.071    | 1.5 W     | 1.43 kJ   | ✅ OK
+Acceleration | 0.131   | 0.111    | 2.4 W     | 1.43 kJ   | ✅ OK
+Acceleration | 0.104   | 0.088    | 1.9 W     | 1.43 kJ   | ✅ OK
+Acceleration | 0.062   | 0.053    | 1.1 W     | 1.43 kJ   | ✅ OK
+Acceleration | 0.032   | 0.027    | 0.6 W     | 1.43 kJ   | ✅ OK
+Acceleration | 0.015   | 0.013    | 0.3 W     | 1.43 kJ   | ✅ OK
+Storm/Chaos  | -0.012   | -0.010    | 0.2 W     | 1.43 kJ   | ✅ OK
+Storm/Chaos  | 0.051   | 0.043    | 0.9 W     | 1.43 kJ   | ✅ OK
+Storm/Chaos  | -0.014   | -0.012    | 0.2 W     | 1.43 kJ   | ✅ OK
+Storm/Chaos  | -0.118   | -0.100    | 2.1 W     | 1.44 kJ   | ✅ OK
+Storm/Chaos  | -0.117   | -0.099    | 2.1 W     | 1.44 kJ   | ✅ OK
+Storm/Chaos  | -0.929   | -0.790    | 16.7 W     | 1.44 kJ   | 🛡️ CLIPPED
+Storm/Chaos  | -1.372   | -1.166    | 24.7 W     | 1.44 kJ   | 🛡️ CLIPPED
+Storm/Chaos  | -1.331   | -1.131    | 24.0 W     | 1.44 kJ   | 🛡️ CLIPPED
+Storm/Chaos  | -0.890   | -0.757    | 16.0 W     | 1.44 kJ   | 🛡️ CLIPPED
+Storm/Chaos  | -0.255   | -0.217    | 4.6 W     | 1.44 kJ   | ✅ OK
+Storm/Chaos  | 0.340   | 0.289    | 6.1 W     | 1.44 kJ   | 🛡️ CLIPPED
+Storm/Chaos  | 0.725   | 0.616    | 13.0 W     | 1.45 kJ   | 🛡️ CLIPPED
+Storm/Chaos  | 0.396   | 0.336    | 7.1 W     | 1.45 kJ   | 🛡️ CLIPPED
+Storm/Chaos  | -0.592   | -0.503    | 10.7 W     | 1.45 kJ   | 🛡️ CLIPPED
+Storm/Chaos  | -1.316   | -1.118    | 23.7 W     | 1.45 kJ   | 🛡️ CLIPPED
+Storm/Chaos  | -1.551   | -1.275    | 33.1 W     | 1.45 kJ   | 🛡️ CLIPPED
+Storm/Chaos  | -1.240   | -1.054    | 22.3 W     | 1.46 kJ   | 🛡️ CLIPPED
+Storm/Chaos  | -0.516   | -0.438    | 9.3 W     | 1.46 kJ   | 🛡️ CLIPPED
+Storm/Chaos  | 0.353   | 0.300    | 6.3 W     | 1.46 kJ   | 🛡️ CLIPPED
+Storm/Chaos  | 1.061   | 0.902    | 19.1 W     | 1.46 kJ   | 🛡️ CLIPPED
+Storm/Chaos  | 0.866   | 0.736    | 15.6 W     | 1.46 kJ   | 🛡️ CLIPPED
+Storm/Chaos  | 0.387   | 0.329    | 7.0 W     | 1.46 kJ   | 🛡️ CLIPPED
+Storm/Chaos  | -0.157   | -0.133    | 2.8 W     | 1.46 kJ   | ✅ OK
+Storm/Chaos  | -0.571   | -0.485    | 10.3 W     | 1.46 kJ   | 🛡️ CLIPPED
+Storm/Chaos  | -0.694   | -0.590    | 12.5 W     | 1.46 kJ   | 🛡️ CLIPPED
+Storm/Chaos  | -0.474   | -0.403    | 8.5 W     | 1.46 kJ   | 🛡️ CLIPPED
+Storm/Chaos  | 0.002   | 0.002    | 0.0 W     | 1.46 kJ   | ✅ OK
+Storm/Chaos  | 0.536   | 0.456    | 9.7 W     | 1.47 kJ   | 🛡️ CLIPPED
+Storm/Chaos  | 0.902   | 0.767    | 16.2 W     | 1.47 kJ   | 🛡️ CLIPPED
+Storm/Chaos  | 0.937   | 0.796    | 16.9 W     | 1.47 kJ   | 🛡️ CLIPPED
+Storm/Chaos  | 0.618   | 0.525    | 11.1 W     | 1.47 kJ   | 🛡️ CLIPPED
+Storm/Chaos  | 0.079   | 0.067    | 1.4 W     | 1.47 kJ   | ✅ OK
+Storm/Chaos  | -0.438   | -0.372    | 7.9 W     | 1.47 kJ   | 🛡️ CLIPPED
+Storm/Chaos  | -0.680   | -0.578    | 12.2 W     | 1.47 kJ   | 🛡️ CLIPPED
+Storm/Chaos  | -0.490   | -0.417    | 8.8 W     | 1.47 kJ   | 🛡️ CLIPPED
+Storm/Chaos  | -0.457   | -0.389    | 8.2 W     | 1.47 kJ   | 🛡️ CLIPPED
+Storm/Chaos  | -0.337   | -0.286    | 6.1 W     | 1.47 kJ   | 🛡️ CLIPPED
+Storm/Chaos  | -0.131   | -0.111    | 2.4 W     | 1.47 kJ   | ✅ OK
+Storm/Chaos  | 0.022   | 0.019    | 0.4 W     | 1.47 kJ   | ✅ OK
+Storm/Chaos  | 0.043   | 0.036    | 0.8 W     | 1.47 kJ   | ✅ OK
+Storm/Chaos  | -0.047   | -0.040    | 0.8 W     | 1.48 kJ   | ✅ OK
+Storm/Chaos  | -0.135   | -0.115    | 2.4 W     | 1.48 kJ   | ✅ OK
+Storm/Chaos  | -0.370   | -0.314    | 6.7 W     | 1.48 kJ   | 🛡️ CLIPPED
+Storm/Chaos  | -1.112   | -0.945    | 20.0 W     | 1.48 kJ   | 🛡️ CLIPPED
+Storm/Chaos  | -1.410   | -1.199    | 25.4 W     | 1.48 kJ   | 🛡️ CLIPPED
+Storm/Chaos  | -1.233   | -1.048    | 22.2 W     | 1.48 kJ   | 🛡️ CLIPPED
+Storm/Chaos  | -0.709   | -0.602    | 12.8 W     | 1.48 kJ   | 🛡️ CLIPPED
+Storm/Chaos  | -0.063   | -0.053    | 1.1 W     | 1.48 kJ   | ✅ OK
+Storm/Chaos  | 0.482   | 0.410    | 8.7 W     | 1.48 kJ   | 🛡️ CLIPPED
+Storm/Chaos  | 0.789   | 0.671    | 14.2 W     | 1.49 kJ   | 🛡️ CLIPPED
+Storm/Chaos  | 0.088   | 0.075    | 1.6 W     | 1.49 kJ   | ✅ OK
+Storm/Chaos  | -0.850   | -0.723    | 15.3 W     | 1.49 kJ   | 🛡️ CLIPPED
+Storm/Chaos  | -1.444   | -1.227    | 26.0 W     | 1.49 kJ   | 🛡️ CLIPPED
+Storm/Chaos  | -1.512   | -1.275    | 28.4 W     | 1.49 kJ   | 🛡️ CLIPPED
+Storm/Chaos  | -1.055   | -0.897    | 19.0 W     | 1.50 kJ   | 🛡️ CLIPPED
+Storm/Chaos  | -0.255   | -0.217    | 4.6 W     | 1.50 kJ   | ✅ OK
+Storm/Chaos  | 0.595   | 0.506    | 10.7 W     | 1.50 kJ   | 🛡️ CLIPPED
+Storm/Chaos  | 1.080   | 0.918    | 19.4 W     | 1.50 kJ   | 🛡️ CLIPPED
+Storm/Chaos  | 0.739   | 0.628    | 13.3 W     | 1.50 kJ   | 🛡️ CLIPPED
+Storm/Chaos  | 0.221   | 0.188    | 4.0 W     | 1.50 kJ   | ✅ OK
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 1.52 kJ   | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 1.54 kJ   | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 1.55 kJ   | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 1.57 kJ   | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 1.59 kJ   | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 1.61 kJ   | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 1.63 kJ   | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 1.64 kJ   | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 1.66 kJ   | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 1.68 kJ   | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 1.70 kJ   | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 1.72 kJ   | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 1.73 kJ   | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 1.75 kJ   | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 1.77 kJ   | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 1.79 kJ   | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 1.81 kJ   | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 1.82 kJ   | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 1.84 kJ   | 🚨 FAIL-SAFE
+SENSOR FAIL  | NaN       | 0.000    | 180.0 W     | 1.86 kJ   | 🚨 FAIL-SAFE
+Recovery     | 0.104   | 0.088    | 1.9 W     | 1.86 kJ   | ✅ OK
+Recovery     | 0.082   | 0.070    | 1.5 W     | 1.86 kJ   | ✅ OK
+Recovery     | 0.065   | 0.055    | 1.2 W     | 1.86 kJ   | ✅ OK
+Recovery     | 0.051   | 0.043    | 0.9 W     | 1.86 kJ   | ✅ OK
+Recovery     | 0.042   | 0.036    | 0.8 W     | 1.86 kJ   | ✅ OK
+Recovery     | 0.038   | 0.032    | 0.7 W     | 1.86 kJ   | ✅ OK
+Recovery     | 0.038   | 0.032    | 0.7 W     | 1.86 kJ   | ✅ OK
+Recovery     | 0.042   | 0.036    | 0.8 W     | 1.86 kJ   | ✅ OK
+Recovery     | 0.052   | 0.044    | 0.9 W     | 1.86 kJ   | ✅ OK
+Recovery     | 0.066   | 0.056    | 1.2 W     | 1.86 kJ   | ✅ OK
+Recovery     | 0.084   | 0.071    | 1.5 W     | 1.86 kJ   | ✅ OK
+Recovery     | 0.106   | 0.090    | 1.9 W     | 1.86 kJ   | ✅ OK
+Recovery     | 0.132   | 0.112    | 2.4 W     | 1.86 kJ   | ✅ OK
+Recovery     | 0.161   | 0.137    | 2.9 W     | 1.86 kJ   | ✅ OK
+Recovery     | 0.193   | 0.164    | 3.5 W     | 1.86 kJ   | ✅ OK
+Recovery     | 0.227   | 0.193    | 4.1 W     | 1.86 kJ   | ✅ OK
+Recovery     | 0.263   | 0.224    | 4.7 W     | 1.86 kJ   | ✅ OK
+Recovery     | 0.301   | 0.256    | 5.4 W     | 1.86 kJ   | ✅ OK
+Recovery     | 0.340   | 0.289    | 6.1 W     | 1.86 kJ   | 🛡️ CLIPPED
+Recovery     | 0.373   | 0.317    | 6.7 W     | 1.87 kJ   | 🛡️ CLIPPED
+Recovery     | 0.358   | 0.304    | 6.4 W     | 1.87 kJ   | 🛡️ CLIPPED
+Recovery     | 0.342   | 0.291    | 6.2 W     | 1.87 kJ   | 🛡️ CLIPPED
+Recovery     | 0.327   | 0.278    | 5.9 W     | 1.87 kJ   | ✅ OK
+Recovery     | 0.313   | 0.266    | 5.6 W     | 1.87 kJ   | ✅ OK
+Recovery     | 0.299   | 0.254    | 5.4 W     | 1.87 kJ   | ✅ OK
+Recovery     | 0.287   | 0.244    | 5.2 W     | 1.87 kJ   | ✅ OK
+Recovery     | 0.275   | 0.234    | 5.0 W     | 1.87 kJ   | ✅ OK
+Recovery     | 0.266   | 0.226    | 4.8 W     | 1.87 kJ   | ✅ OK
+Recovery     | 0.258   | 0.219    | 4.6 W     | 1.87 kJ   | ✅ OK
+Recovery     | 0.252   | 0.214    | 4.5 W     | 1.87 kJ   | ✅ OK
+Recovery     | 0.248   | 0.211    | 4.5 W     | 1.87 kJ   | ✅ OK
+Recovery     | 0.246   | 0.209    | 4.4 W     | 1.87 kJ   | ✅ OK
+Recovery     | 0.246   | 0.209    | 4.4 W     | 1.87 kJ   | ✅ OK
+Recovery     | 0.248   | 0.211    | 4.5 W     | 1.87 kJ   | ✅ OK
+Recovery     | 0.252   | 0.214    | 4.5 W     | 1.87 kJ   | ✅ OK
+Recovery     | 0.258   | 0.220    | 4.7 W     | 1.87 kJ   | ✅ OK
+Recovery     | 0.266   | 0.226    | 4.8 W     | 1.87 kJ   | ✅ OK
+Recovery     | 0.276   | 0.235    | 5.0 W     | 1.87 kJ   | ✅ OK
+Recovery     | 0.287   | 0.244    | 5.2 W     | 1.88 kJ   | ✅ OK
+Recovery     | 0.300   | 0.255    | 5.4 W     | 1.88 kJ   | ✅ OK
+Calm Water   | 0.181   | 0.154    | 3.3 W     | 1.88 kJ   | ✅ OK
+Calm Water   | 0.183   | 0.156    | 3.3 W     | 1.88 kJ   | ✅ OK
+Calm Water   | 0.187   | 0.159    | 3.4 W     | 1.88 kJ   | ✅ OK
+Calm Water   | 0.193   | 0.164    | 3.5 W     | 1.88 kJ   | ✅ OK
+Calm Water   | 0.200   | 0.170    | 3.6 W     | 1.88 kJ   | ✅ OK
+Calm Water   | 0.209   | 0.178    | 3.8 W     | 1.88 kJ   | ✅ OK
+Calm Water   | 0.219   | 0.186    | 3.9 W     | 1.88 kJ   | ✅ OK
+Calm Water   | 0.231   | 0.196    | 4.1 W     | 1.88 kJ   | ✅ OK
+Calm Water   | 0.243   | 0.207    | 4.4 W     | 1.88 kJ   | ✅ OK
+Calm Water   | 0.257   | 0.218    | 4.6 W     | 1.88 kJ   | ✅ OK
+Calm Water   | 0.272   | 0.231    | 4.9 W     | 1.88 kJ   | ✅ OK
+Calm Water   | 0.287   | 0.244    | 5.2 W     | 1.88 kJ   | ✅ OK
+Calm Water   | 0.303   | 0.258    | 5.5 W     | 1.88 kJ   | ✅ OK
+Calm Water   | 0.320   | 0.272    | 5.8 W     | 1.88 kJ   | ✅ OK
+Calm Water   | 0.338   | 0.287    | 6.1 W     | 1.88 kJ   | 🛡️ CLIPPED
+Calm Water   | 0.355   | 0.302    | 6.4 W     | 1.88 kJ   | 🛡️ CLIPPED
+Calm Water   | 0.373   | 0.317    | 6.7 W     | 1.88 kJ   | 🛡️ CLIPPED
+Calm Water   | 0.379   | 0.322    | 6.8 W     | 1.88 kJ   | 🛡️ CLIPPED
+Calm Water   | 0.369   | 0.314    | 6.6 W     | 1.88 kJ   | 🛡️ CLIPPED
+Calm Water   | 0.359   | 0.306    | 6.5 W     | 1.89 kJ   | 🛡️ CLIPPED
+Calm Water   | 0.350   | 0.297    | 6.3 W     | 1.89 kJ   | 🛡️ CLIPPED
+Calm Water   | 0.340   | 0.289    | 6.1 W     | 1.89 kJ   | 🛡️ CLIPPED
+Calm Water   | 0.331   | 0.281    | 6.0 W     | 1.89 kJ   | ✅ OK
+Calm Water   | 0.322   | 0.273    | 5.8 W     | 1.89 kJ   | ✅ OK
+Calm Water   | 0.313   | 0.266    | 5.6 W     | 1.89 kJ   | ✅ OK
+Calm Water   | 0.305   | 0.260    | 5.5 W     | 1.89 kJ   | ✅ OK
+Calm Water   | 0.298   | 0.253    | 5.4 W     | 1.89 kJ   | ✅ OK
+Calm Water   | 0.292   | 0.248    | 5.3 W     | 1.89 kJ   | ✅ OK
+Calm Water   | 0.286   | 0.243    | 5.1 W     | 1.89 kJ   | ✅ OK
+Calm Water   | 0.281   | 0.239    | 5.1 W     | 1.89 kJ   | ✅ OK
+Calm Water   | 0.277   | 0.236    | 5.0 W     | 1.89 kJ   | ✅ OK
+Calm Water   | 0.274   | 0.233    | 4.9 W     | 1.89 kJ   | ✅ OK
+Calm Water   | 0.272   | 0.232    | 4.9 W     | 1.89 kJ   | ✅ OK
+Calm Water   | 0.271   | 0.231    | 4.9 W     | 1.89 kJ   | ✅ OK
+Calm Water   | 0.272   | 0.231    | 4.9 W     | 1.89 kJ   | ✅ OK
+Calm Water   | 0.273   | 0.232    | 4.9 W     | 1.89 kJ   | ✅ OK
+Calm Water   | 0.275   | 0.233    | 4.9 W     | 1.89 kJ   | ✅ OK
+Calm Water   | 0.278   | 0.236    | 5.0 W     | 1.90 kJ   | ✅ OK
+Calm Water   | 0.281   | 0.239    | 5.1 W     | 1.90 kJ   | ✅ OK
+Calm Water   | 0.286   | 0.243    | 5.2 W     | 1.90 kJ   | ✅ OK
+Acceleration | 0.078   | 0.066    | 1.4 W     | 1.90 kJ   | ✅ OK
+Acceleration | 0.124   | 0.105    | 2.2 W     | 1.90 kJ   | ✅ OK
+Acceleration | 0.179   | 0.152    | 3.2 W     | 1.90 kJ   | ✅ OK
+Acceleration | 0.242   | 0.205    | 4.4 W     | 1.90 kJ   | ✅ OK
+Acceleration | 0.309   | 0.262    | 5.6 W     | 1.90 kJ   | ✅ OK
+Acceleration | 0.378   | 0.321    | 6.8 W     | 1.90 kJ   | 🛡️ CLIPPED
+Acceleration | 0.446   | 0.379    | 8.0 W     | 1.90 kJ   | 🛡️ CLIPPED
+Acceleration | 0.510   | 0.434    | 9.2 W     | 1.90 kJ   | 🛡️ CLIPPED
+Acceleration | 0.569   | 0.483    | 10.2 W     | 1.90 kJ   | 🛡️ CLIPPED
+Acceleration | 0.513   | 0.436    | 9.2 W     | 1.90 kJ   | 🛡️ CLIPPED
+Acceleration | 0.448   | 0.381    | 8.1 W     | 1.90 kJ   | 🛡️ CLIPPED
+Acceleration | 0.380   | 0.323    | 6.8 W     | 1.90 kJ   | 🛡️ CLIPPED
+Acceleration | 0.311   | 0.265    | 5.6 W     | 1.90 kJ   | ✅ OK
+Acceleration | 0.244   | 0.208    | 4.4 W     | 1.90 kJ   | ✅ OK
+Acceleration | 0.182   | 0.154    | 3.3 W     | 1.90 kJ   | ✅ OK
+Acceleration | 0.126   | 0.107    | 2.3 W     | 1.91 kJ   | ✅ OK
+Acceleration | 0.079   | 0.067    | 1.4 W     | 1.91 kJ   | ✅ OK
+Acceleration | 0.044   | 0.037    | 0.8 W     | 1.91 kJ   | ✅ OK
+Acceleration | 0.021   | 0.018    | 0.4 W     | 1.91 kJ   | ✅ OK
+Acceleration | 0.011   | 0.010    | 0.2 W     | 1.91 kJ   | ✅ OK
+Acceleration | 0.015   | 0.013    | 0.3 W     | 1.91 kJ   | ✅ OK
+Acceleration | 0.033   | 0.028    | 0.6 W     | 1.91 kJ   | ✅ OK
+Acceleration | 0.064   | 0.054    | 1.1 W     | 1.91 kJ   | ✅ OK
+Acceleration | 0.106   | 0.090    | 1.9 W     | 1.91 kJ   | ✅ OK
