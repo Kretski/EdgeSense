@@ -1,0 +1,46 @@
+# ==========================================
+# EdgeSense .gitignore (Tailored for ES Tree)
+# ==========================================
+
+# 1. Python Cache (Кешове, които Git не трябва да вижда)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 2. Сурови данни и Матрици (Data Logs & Numpy Arrays)
+data/*.bin
+data/*.csv
+data/*.json
+scripts/data/
+*.npy
+*.npz
+
+# Забележка: Ако искаш да качиш 'sample.csv', за да имат 
+# хората пример, можеш да го "разрешиш" така (премахни #):
+# !data/sample.csv
+
+# 3. Временни файлове от AZURO / PySR (Outputs)
+# Игнорира всички автоматични папки с дати в outputs/
+outputs/2026*/
+*.pkl
+*.bak
+hall_of_fame.csv
+hall_of_fame.csv.bak
+
+# 4. Временни текстови бележки / Чернови
+*нов*.txt
+*.txt
+!README.txt
+!CMakeLists.txt
+
+# 5. Arduino / C++ Build Файлове (ако се появят)
+build/
+*.elf
+*.hex
+*.o
+
+# 6. Системни файлове
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
