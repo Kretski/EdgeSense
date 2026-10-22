@@ -1,216 +1,155 @@
-[README (6).md](https://github.com/user-attachments/files/33807595/README.6.md)
 # EdgeSense Nano
 
 **Symbolic control-law extraction for embedded systems.**
 
-EdgeSense fits interpretable equations to sensor/control logs using symbolic regression
-and exports the selected equation as a plain C function for microcontrollers
-(STM32 / Arduino / ESP32). No neural network is needed at runtime.
+EdgeSense fits compact, human-readable equations to logged sensor/actuator data usingsymbolic regression (PySR) and exports the selected equation as a plain C function formicrocontrollers (STM32 / Arduino / ESP32). No neural network is needed at runtime.
 
-> **Status: research prototype.** All results in this README come from **simulated**
-> USV motion data. Validation on real hardware has not been done yet (planned, BSHC Varna).
+> **Status: research prototype.** No validation on real hardware yet (planned, BSHC Varna).
+> 
+> **Correction (v2.1):** versions up to 2.0 fitted the output of an *untrained* neuralnetwork instead of the logged data. The equation previously shown in this README(`thrust_cmd = ((error × −1.019) + gyro_y + 1.337) × 0.271`) therefore does not describethe data and has been withdrawn. The pipeline has been fixed; results will be regenerated.
 
----
+* * *
 
 ## What it does
 
-EdgeSense takes logged sensor and actuator data and searches for a compact, human-readable
-equation that reproduces the actuator command from the sensor inputs. The selected equation
-is emitted as a single C function.
+Given a CSV with input columns (e.g. `error`, `gyro_y`) and a target column(the actuator command, e.g. `thrust`), EdgeSense:
 
-**Input:** CSV with sensor and command columns (e.g. `error`, `gyro_y`, `thrust`)
-**Output:** C function, typically well under 1 KB flash
+1. splits the data chronologically into a training part and a held-out test part,
+2. runs symbolic regression on the training part to find `target = f(inputs)`,
+3. reports held-out RMSE and R² against a constant-mean baseline,
+4. saves all candidate equations (`hall_of_fame.csv`),
+5. exports the selected equation as a C function.
 
-Typical use: replacing an opaque learned policy with a short closed-form expression that
-can be inspected, reviewed, and bounded by a runtime safety filter.
+The result is a **fitted expression**, not a derived physical law. Its value is that it isshort, inspectable, and cheap to run, and that it can be bounded by a runtime safety filter.
 
----
+* * *
 
-## Example: simulated USV pool test
+## Quick start
 
-Data: `data/pool_record.csv` — **simulated** USV motion data.
+    # 1. Self-test on synthetic data generated from a known PD law
+    python scripts/generate_and_test.py
+    
+    # 2. Fit your own log
+    python scripts/train_on_real_data.py --csv data/pool_record.csv \
+        --inputs error gyro_y --target thrust --data-label SIMULATED
 
-Symbolic regression selected:
+The self-test generates data from `thrust = −0.28·error + 0.27·gyro_y + 0.36 + noise`and checks that the pipeline recovers those coefficients. It tests the pipeline only.
 
-```
-thrust_cmd = ((error × −1.019) + gyro_y + 1.337) × 0.271
-```
+Outputs (in `outputs/`): `hall_of_fame.csv`, `<model_name>.c`.Runs are reproducible for a given `--seed`.
 
-This has the structure of a PD controller (proportional term on `error`, derivative-like
-term on `gyro_y`, plus a bias).
-
-**How to read this result.** The simulated data were produced by a closed-loop controller.
-Recovering a PD-form law from them is therefore a **sanity check of the pipeline** — it shows
-that EdgeSense can recover a known control structure from logs — **not** the discovery of a
-new physical law. The near-zero losses below are consistent with an exact generating formula
-plus little or no noise; real sea data will produce substantially higher losses.
-
-Hall of fame (candidates ordered by complexity):
-
-| Complexity | Loss        | Equation                                |
-| ---------- | ----------- | --------------------------------------- |
-| 1          | 0.496       | −0.201                                  |
-| 3          | 0.199       | x1 × 0.274                              |
-| 5          | 0.159       | (x1 − 0.728) × 0.274                    |
-| 7          | 0.044       | (x1 + x0 × −0.579) × 0.272              |
-| **9**      | **0.00069** | **(x0 × −1.019 + x1 + 1.337) × 0.271**  |
-| 11         | 0.00052     | x0 × −0.266 + (x2 + x1 + 0.722) × 0.273 |
-
-`x0 = error`, `x1 = gyro_y`, `x2 = thrust`
-
-Complexity 9 is selected for deployment: the gain from complexity 11 is marginal, and
-complexity 11 feeds the previous thrust value back into the command, which adds a
-self-referential term without clear benefit.
-
----
+* * *
 
 ## Architecture
 
-```
-Sensor CSV
-    ↓
-EdgeSense (symbolic regression; optional NN ensemble for comparison)
-    ↓
-hall_of_fame.csv        ← ranked human-readable candidates
-    ↓
-real_physics_model.c    ← selected equation as a C function
-    ↓
-MicroSafe-RL            ← runtime safety filter (control barrier function)
-    ↓
-Actuator
-```
+    Logged CSV (inputs + actuator command)
+        ↓
+    Chronological train / test split
+        ↓
+    Symbolic regression (PySR)  →  hall_of_fame.csv
+        ↓
+    Held-out evaluation (RMSE, R²)
+        ↓
+    <model_name>.c   ← selected equation as a C function
+        ↓
+    MicroSafe-RL     ← runtime safety filter (control barrier function)
+        ↓
+    Actuator
 
----
+* * *
 
-## Generated C output
+## Generated C output (example from the synthetic self-test)
 
-```c
-/* GENERATED BY EDGESENSE NANO v2.0 */
-float real_physics_model_inference(float x0, float x1, float x2) {
-    // x0 = error, x1 = gyro_y, x2 = thrust (unused by this equation)
-    (void)x2;
-    return (x0 * (-1.0192606f) + x1 + 1.3368257f) * 0.2706757f;
-}
-```
+    /* GENERATED BY EDGESENSE NANO v2.1
+     * Symbolic regression fit: thrust = f(error, gyro_y)
+     * Data type:   SYNTHETIC (known PD law)
+     * Inputs:      x0 = error, x1 = gyro_y
+     */
+    float synthetic_model_inference(float x0, float x1, float x2) {
+        (void)x2;
+        return -0.279520f*x0 + 0.270055f*x1 + 0.359872f;
+    }
 
-No heap allocation, no neural network at runtime. The expression is a handful of
-floating-point operations, so on an STM32F401 (Cortex-M4F with FPU) it runs well under 1 µs.
+The function signature is fixed at three float arguments for compatibility with`MainDemo.ino`; unused arguments are cast to `void`. No heap allocation. A linearexpression like this is a few floating-point operations on a Cortex-M4F; timing on targethardware has not yet been measured for this repository.
 
----
-
-## Pipeline
-
-```python
-from src.edgesense_core import EdgeSenseAnomalyFull
-
-model = EdgeSenseAnomalyFull(input_dim=3)
-model.train_model(X, y, epochs=50)     # NN + SGD + DecisionTree ensemble (baseline)
-predictions = model.predict(X_new)
-model.export_onnx(input_dim=3)         # optional ONNX export
-```
-
-Symbolic regression is run with `scripts/train_on_real_data.py` and writes
-`outputs/hall_of_fame.csv` with all candidate equations ranked by complexity and loss.
-(The script name refers to the data-loading path; the current dataset is simulated.)
-
----
-
-## File structure
-
-```
-├── src/
-│   ├── edgesense_core.py       # NN + ensemble training (baseline)
-│   ├── symbolic_reg.py         # symbolic regression engine
-│   ├── symbolic_from_nn.py     # NN → symbolic distillation
-│   ├── energy_estimator.py     # power / energy accounting
-│   ├── anomaly_detector.py     # drift and anomaly detection
-│   └── onnx_export.py          # ONNX export
-├── firmware/
-│   ├── src/inference.c         # C inference engine
-│   └── include/model.h
-├── MainDemo/
-│   ├── MainDemo.ino            # Arduino/STM32 demo
-│   ├── MicroSafeRL.h           # safety layer (submodule)
-│   └── real_symbolic_model.c   # generated equation
-├── data/
-│   └── pool_record.csv         # simulated USV motion data
-└── outputs/
-    └── */hall_of_fame.csv      # candidate equations per run
-```
-
----
+* * *
 
 ## Integration with MicroSafe-RL
 
-The EdgeSense output is passed through MicroSafe-RL before reaching the actuator:
+    #include "MicroSafeRL_CBF_Grav.h"
+    
+    MicroSafeRL_CBF_Grav safety;
+    
+    void loop() {
+        float cmd = real_physics_model_inference(error, gyro_y, thrust);
+        float safe_cmd = safety.apply_safe_control(cmd, gyro_y);
+        motor.set(safe_cmd);
+    }
 
-```cpp
-#include "MicroSafeRL_CBF_Grav.h"
-
-MicroSafeRL_CBF_Grav safety;
-
-void loop() {
-    float cmd = real_physics_model_inference(error, gyro_y, thrust);
-    float safe_cmd = safety.apply(cmd, sensor);
-    motor.set(safe_cmd);
-}
-```
-
-The safety filter keeps the command inside the configured safe set. Its guarantees hold
-only to the extent that the safe-set constraints and the system model used to define them
-match the real platform; they are not a guarantee of hardware survival under conditions
-outside that model.
+The safety filter keeps the command inside the configured safe set. Its guarantees holdonly to the extent that the safe-set constraints and the system model used to define themmatch the real platform.
 
 MicroSafe-RL repository: github.com/Kretski/MicroSafe-RL
 
----
+`MainDemo/real_symbolic_model.c` currently contains a **placeholder** model (the withdrawnequation) so that the demo compiles. Replace it with a regenerated file before drawing anyconclusions from the demo output.
+
+* * *
+
+## File structure
+
+    ├── scripts/
+    │   ├── train_on_real_data.py   # fit target = f(inputs) from a CSV, export C
+    │   └── generate_and_test.py    # synthetic self-test with a known PD law
+    ├── src/
+    │   ├── edgesense_core.py       # NN + ensemble training (baseline, separate use)
+    │   ├── symbolic_from_nn.py     # distil a TRAINED network into an equation
+    │   ├── energy_estimator.py     # power / energy accounting
+    │   ├── anomaly_detector.py     # drift and anomaly detection
+    │   └── onnx_export.py          # ONNX export
+    ├── firmware/                   # C inference engine
+    ├── MainDemo/
+    │   ├── MainDemo.ino            # Arduino/STM32 demo (simulated inputs)
+    │   ├── MicroSafeRL_CBF_Grav.h  # safety layer
+    │   └── real_symbolic_model.c   # model used by the demo (currently a placeholder)
+    └── outputs/                    # generated equations and C files
+
+`data/*.csv` is git-ignored; datasets are not included in the repository.
+
+* * *
 
 ## Limitations
 
-- **No real-hardware validation yet.** All reported equations and losses are from simulated data.
-- **Recovered, not discovered.** On simulated closed-loop data, the method recovers the
-  structure of the generating controller.
-- **Noise and disturbances not yet characterised.** Waves, current, wind, sensor noise and
-  actuator saturation in real operation are not represented in the current dataset.
-- **Inputs must be chosen by the user.** Symbolic regression only finds relationships among
-  the variables it is given.
+* **No real-hardware validation.** No result in this repository comes from a real vessel.
+* **Fitted, not discovered.** Symbolic regression finds an expression that reproduces thetarget from the given inputs; it does not establish causality or physical meaning.
+* **Closed-loop data.** When the log comes from a system already under feedback control,the fit mostly recovers that controller.
+* **Disturbances not characterised.** Waves, current, wind, sensor noise and actuatorsaturation are not represented in current data.
+* **Inputs must be chosen by the user.**
 
 ## Planned work
 
-- Real-hardware data from a USV platform (model or full scale), including runs in waves
-- Comparison against the controller actually running on the vessel
-- Robustness tests: sensor noise, actuator saturation, sensor dropout
-- Measured timing and memory footprint on target MCUs
+* Logs from a real USV platform (model or full scale), including runs in waves
+* Comparison against the controller actually running on the vessel
+* Robustness tests: sensor noise, actuator saturation, sensor dropout
+* Measured timing and memory footprint on target MCUs
 
----
+* * *
 
 ## Intended application areas
 
-- Autonomous surface vessels (USV)
-- Drone attitude control
-- Industrial process control
-- Systems where the control law is unknown or opaque but logged data are available
+Autonomous surface vessels, drone attitude control, industrial process control — anysystem where a short, inspectable control expression is wanted and logged data exist.None has been validated on real hardware yet.
 
-None of these has been validated on real hardware yet.
-
----
+* * *
 
 ## Publications
 
-- Zenodo: [doi link]
-- arXiv (cs.SY / cs.RO): in preparation
-- Data: `pool_record.csv` — simulated USV motion data
+* arXiv (cs.SY / cs.RO): in preparation
 
----
+* * *
 
 ## License
 
 Copyright © 2025 Dimitar Kretski. All rights reserved.
 
-**Non-commercial use** (research, education, personal projects):
-free to use with attribution.
+**Non-commercial use** (research, education, personal projects):free to use with attribution.
 
-**Commercial use:** requires a separate license.
-Contact: kretski1@gmail.com · github.com/Kretski
+**Commercial use:** requires a separate license.Contact: kretski1@gmail.com · github.com/Kretski
 
 This repository is not MIT-licensed.
