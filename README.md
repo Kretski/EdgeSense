@@ -63,7 +63,7 @@ Held-out evaluation (RMSE, R²)
     ↓
 <model_name>.c   ← selected equation as a C function
     ↓
-MicroSafe-RL     ← runtime safety filter (control barrier function)
+MicroSafe-RL     ← runtime output filter (hard bounds, NaN guard, instability score)
     ↓
 Actuator
 ```
@@ -94,9 +94,9 @@ hardware has not yet been measured for this repository.
 ## Integration with MicroSafe-RL
 
 ```cpp
-#include "MicroSafeRL_CBF_Grav.h"
+#include "MicroSafeRL.h"
 
-MicroSafeRL_CBF_Grav safety;
+MicroSafeRL safety;   // default bounds [-1.5, +1.5]
 
 void loop() {
     float cmd = real_physics_model_inference(error, gyro_y, thrust);
@@ -105,11 +105,21 @@ void loop() {
 }
 ```
 
-The safety filter keeps the command inside the configured safe set. Its guarantees hold
-only to the extent that the safe-set constraints and the system model used to define them
-match the real platform.
+MicroSafe-RL is a model-free output filter, not a control barrier function. What it
+guarantees: for finite inputs the output stays within the configured bounds, and an invalid
+(NaN/Inf) command becomes 0. Its adaptive attenuation is small at default settings (at most
+~4.8%), and it has not yet been shown to outperform plain clipping. See the MicroSafe-RL
+repository for its validation status and limitations.
 
-MicroSafe-RL repository: github.com/Kretski/MicroSafe-RL
+`MainDemo/MicroSafeRL.h` is an unmodified copy of the header from
+github.com/Kretski/MicroSafe-RL-core
+
+### MainDemo
+
+`MainDemo/MainDemo.ino` runs on an STM32 (Arduino core) with **scripted, simulated inputs**:
+calm, acceleration, disturbance, sensor failure (NaN) and recovery phases. Over serial it
+prints the raw and filtered command, the instability penalty, and the measured latency of
+model + filter (DWT cycle counter). It does not measure energy or vessel behaviour.
 
 `MainDemo/real_symbolic_model.c` currently contains a **placeholder** model (the withdrawn
 equation) so that the demo compiles. Replace it with a regenerated file before drawing any
@@ -125,16 +135,13 @@ conclusions from the demo output.
 │   └── generate_and_test.py    # synthetic self-test with a known PD law
 ├── src/
 │   ├── edgesense_core.py       # NN + ensemble training (baseline, separate use)
-│   ├── symbolic_from_nn.py     # distil a TRAINED network into an equation
-│   ├── energy_estimator.py     # power / energy accounting
-│   ├── anomaly_detector.py     # drift and anomaly detection
-│   └── onnx_export.py          # ONNX export
-├── firmware/                   # C inference engine
+│   └── symbolic_from_nn.py     # distil a TRAINED network into an equation
+├── edgesense/                  # data loading, feature selection, drift detection
 ├── MainDemo/
-│   ├── MainDemo.ino            # Arduino/STM32 demo (simulated inputs)
-│   ├── MicroSafeRL_CBF_Grav.h  # safety layer
+│   ├── MainDemo.ino            # STM32/Arduino bench demo (simulated inputs)
+│   ├── MicroSafeRL.h           # output filter, copy from MicroSafe-RL-core
 │   └── real_symbolic_model.c   # model used by the demo (currently a placeholder)
-└── outputs/                    # generated equations and C files
+└── outputs/                    # generated equations and C files (created by the scripts)
 ```
 
 `data/*.csv` is git-ignored; datasets are not included in the repository.
